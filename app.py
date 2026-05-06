@@ -1172,8 +1172,14 @@ elif active_dataset_choice == "LTE TIS":
                     
         if all_measurements:
             df = pd.DataFrame(all_measurements)
-            df['Frequency (Mhz)'] = df['Frequency (Mhz)'].astype(float)
-            df['TIS (dBm)'] = df['TIS (dBm)'].astype(float)
+            df['Frequency (Mhz)'] = pd.to_numeric(df['Frequency (Mhz)'], errors='coerce')
+            df['TIS (dBm)'] = pd.to_numeric(df['TIS (dBm)'], errors='coerce')
+            
+            # Clean and format the limits
+            if 'TIS Upper Limit (dBm)' in df.columns:
+                df['TIS Upper Limit (dBm)'] = pd.to_numeric(df['TIS Upper Limit (dBm)'], errors='coerce')
+            if 'TIS Lower Limit (dBm)' in df.columns:
+                df['TIS Lower Limit (dBm)'] = pd.to_numeric(df['TIS Lower Limit (dBm)'], errors='coerce')
             
             # Dashboard Headers
             st.markdown(f"<h3 style='color: #0000ff;'>Quarterly - Active Validation Measurements - LTE TIS</h3>", unsafe_allow_html=True)
@@ -1181,6 +1187,7 @@ elif active_dataset_choice == "LTE TIS":
             
             fig = go.Figure()
             
+            # Main TIS Trace
             fig.add_trace(go.Scatter(
                 x=df['Band Chan'], 
                 y=df['TIS (dBm)'],
@@ -1191,6 +1198,26 @@ elif active_dataset_choice == "LTE TIS":
                 line=dict(color='#0000ff'),
                 marker=dict(color='#0000ff', size=8)
             ))
+            
+            # Add TIS Upper Limit
+            if 'TIS Upper Limit (dBm)' in df.columns and df['TIS Upper Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Band Chan'],
+                    y=df['TIS Upper Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Upper Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
+
+            # Add TIS Lower Limit
+            if 'TIS Lower Limit (dBm)' in df.columns and df['TIS Lower Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Band Chan'],
+                    y=df['TIS Lower Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Lower Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
             
             chart_title_text = f"<b>All Frequencies - Active TIS Trend (LTE Band/Chan)</b>"
             
@@ -1237,8 +1264,14 @@ elif active_dataset_choice == "LTE TIS":
         if selected_data and "Measurements" in selected_data:
             df = pd.DataFrame(selected_data["Measurements"])
             # Ensure data is plotted numerically
-            df['Frequency (Mhz)'] = df['Frequency (Mhz)'].astype(float)
-            df['TIS (dBm)'] = df['TIS (dBm)'].astype(float)
+            df['Frequency (Mhz)'] = pd.to_numeric(df['Frequency (Mhz)'], errors='coerce')
+            df['TIS (dBm)'] = pd.to_numeric(df['TIS (dBm)'], errors='coerce')
+            
+            # Clean and format the limits
+            if 'TIS Upper Limit (dBm)' in df.columns:
+                df['TIS Upper Limit (dBm)'] = pd.to_numeric(df['TIS Upper Limit (dBm)'], errors='coerce')
+            if 'TIS Lower Limit (dBm)' in df.columns:
+                df['TIS Lower Limit (dBm)'] = pd.to_numeric(df['TIS Lower Limit (dBm)'], errors='coerce')
             
             test_date = selected_data.get('Date', 'N/A')
             device_name = selected_data.get('Device', 'Unknown Device')
@@ -1249,6 +1282,7 @@ elif active_dataset_choice == "LTE TIS":
             
             fig = go.Figure()
             
+            # Main TIS Trace
             fig.add_trace(go.Scatter(
                 x=df['Frequency (Mhz)'], 
                 y=df['TIS (dBm)'],
@@ -1259,6 +1293,26 @@ elif active_dataset_choice == "LTE TIS":
                 line=dict(color='#0000ff'),
                 marker=dict(color='#0000ff', size=8)
             ))
+            
+            # Add TIS Upper Limit
+            if 'TIS Upper Limit (dBm)' in df.columns and df['TIS Upper Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Frequency (Mhz)'],
+                    y=df['TIS Upper Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Upper Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
+
+            # Add TIS Lower Limit
+            if 'TIS Lower Limit (dBm)' in df.columns and df['TIS Lower Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Frequency (Mhz)'],
+                    y=df['TIS Lower Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Lower Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
             
             chart_title_text = f"<b>{selected_range} - Active TIS Trend (Frequency)</b>"
             
