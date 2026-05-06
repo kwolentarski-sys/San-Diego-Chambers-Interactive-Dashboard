@@ -1,0 +1,38 @@
+[
+  {
+    "Device": "Reference: Samsung Galaxy J120P: IMEI: 8874",
+    "Date": "3/10/26",
+    "Measurements": [
+      {
+        "Band Chan": "LOW      ch:0",
+        "Frequency (Mhz)": "2402",
+        "TRP (dBm)": "3.47",
+        "TRP Upper Limit (dBm)": "3.97",
+        "TRP Lower Limit (dBm)": "2.97",
+        "TIS (dBm)": "-90.77",
+        "TIS Upper Limit (dBm)": "-90.27",
+        "TIS Lower Limit (dBm)": "-91.27"
+      },
+      {
+        "Band Chan": "MID      ch:39",
+        "Frequency (Mhz)": "2441",
+        "TRP (dBm)": "3.60",
+        "TRP Upper Limit (dBm)": "4.10",
+        "TRP Lower Limit (dBm)": "3.10",
+        "TIS (dBm)": "-90.82",
+        "TIS Upper Limit (dBm)": "-90.32",
+        "TIS Lower Limit (dBm)": "-91.32"
+      },
+      {
+        "Band Chan": "HIGH    ch:78",
+        "Frequency (Mhz)": "2480",
+        "TRP (dBm)": "3.29",
+        "TRP Upper Limit (dBm)": "3.79",
+        "TRP Lower Limit (dBm)": "2.79",
+        "TIS (dBm)": "-90.21",
+        "TIS Upper Limit (dBm)": "-89.71",
+        "TIS Lower Limit (dBm)": "-90.71"
+      }
+    ]
+  }
+]
