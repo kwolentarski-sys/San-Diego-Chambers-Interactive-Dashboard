@@ -238,6 +238,13 @@ elif test_desc_choice == "aGPS L5 Pattern Only":
     except FileNotFoundError:
         st.sidebar.warning("Upload **`aGPS_L5_Pattern_Only.md`** to view this description.")
 
+# --- Summary Report Menu ---
+st.sidebar.markdown("---") # Visual divider
+summary_report_choice = st.sidebar.selectbox(
+    "**Select Summary Report:**",
+    ("🔵 None", "Quarterly Summary", "Yearly Summary")
+)
+
 # Map Chamber selection to file prefix
 prefix_map = {
     "Satimo 1 (24 Probe)": "Satimo1_",
