@@ -932,8 +932,14 @@ elif active_dataset_choice == "LTE TRP":
                     
         if all_measurements:
             df = pd.DataFrame(all_measurements)
-            df['Frequency (Mhz)'] = df['Frequency (Mhz)'].astype(float)
-            df['TRP (dBm)'] = df['TRP (dBm)'].astype(float)
+            df['Frequency (Mhz)'] = pd.to_numeric(df['Frequency (Mhz)'], errors='coerce')
+            df['TRP (dBm)'] = pd.to_numeric(df['TRP (dBm)'], errors='coerce')
+            
+            # Clean and format the limits
+            if 'TRP Upper Limit (dBm)' in df.columns:
+                df['TRP Upper Limit (dBm)'] = pd.to_numeric(df['TRP Upper Limit (dBm)'], errors='coerce')
+            if 'TRP Lower Limit (dBm)' in df.columns:
+                df['TRP Lower Limit (dBm)'] = pd.to_numeric(df['TRP Lower Limit (dBm)'], errors='coerce')
             
             # Dashboard Headers
             st.markdown(f"<h3 style='color: #0000ff;'>Quarterly - Active Validation Measurements - LTE TRP</h3>", unsafe_allow_html=True)
@@ -941,6 +947,7 @@ elif active_dataset_choice == "LTE TRP":
             
             fig = go.Figure()
             
+            # Main TRP Trace
             fig.add_trace(go.Scatter(
                 x=df['Band Chan'], 
                 y=df['TRP (dBm)'],
@@ -951,6 +958,26 @@ elif active_dataset_choice == "LTE TRP":
                 line=dict(color='#0000ff'),
                 marker=dict(color='#0000ff', size=8)
             ))
+            
+            # Add TRP Upper Limit
+            if 'TRP Upper Limit (dBm)' in df.columns and df['TRP Upper Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Band Chan'],
+                    y=df['TRP Upper Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Upper Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
+
+            # Add TRP Lower Limit
+            if 'TRP Lower Limit (dBm)' in df.columns and df['TRP Lower Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Band Chan'],
+                    y=df['TRP Lower Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Lower Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
             
             chart_title_text = f"<b>All Frequencies - Active TRP Trend (LTE Band/Chan)</b>"
             
@@ -997,8 +1024,14 @@ elif active_dataset_choice == "LTE TRP":
         if selected_data and "Measurements" in selected_data:
             df = pd.DataFrame(selected_data["Measurements"])
             # Ensure data is plotted numerically
-            df['Frequency (Mhz)'] = df['Frequency (Mhz)'].astype(float)
-            df['TRP (dBm)'] = df['TRP (dBm)'].astype(float)
+            df['Frequency (Mhz)'] = pd.to_numeric(df['Frequency (Mhz)'], errors='coerce')
+            df['TRP (dBm)'] = pd.to_numeric(df['TRP (dBm)'], errors='coerce')
+            
+            # Clean and format the limits
+            if 'TRP Upper Limit (dBm)' in df.columns:
+                df['TRP Upper Limit (dBm)'] = pd.to_numeric(df['TRP Upper Limit (dBm)'], errors='coerce')
+            if 'TRP Lower Limit (dBm)' in df.columns:
+                df['TRP Lower Limit (dBm)'] = pd.to_numeric(df['TRP Lower Limit (dBm)'], errors='coerce')
             
             test_date = selected_data.get('Date', 'N/A')
             device_name = selected_data.get('Device', 'Unknown Device')
@@ -1009,6 +1042,7 @@ elif active_dataset_choice == "LTE TRP":
             
             fig = go.Figure()
             
+            # Main TRP Trace
             fig.add_trace(go.Scatter(
                 x=df['Frequency (Mhz)'], 
                 y=df['TRP (dBm)'],
@@ -1019,6 +1053,26 @@ elif active_dataset_choice == "LTE TRP":
                 line=dict(color='#0000ff'),
                 marker=dict(color='#0000ff', size=8)
             ))
+            
+            # Add TRP Upper Limit
+            if 'TRP Upper Limit (dBm)' in df.columns and df['TRP Upper Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Frequency (Mhz)'],
+                    y=df['TRP Upper Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Upper Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
+
+            # Add TRP Lower Limit
+            if 'TRP Lower Limit (dBm)' in df.columns and df['TRP Lower Limit (dBm)'].notna().any():
+                fig.add_trace(go.Scatter(
+                    x=df['Frequency (Mhz)'],
+                    y=df['TRP Lower Limit (dBm)'],
+                    mode='lines',
+                    name='<b>Lower Limit (dBm)</b>',
+                    line=dict(dash='dot', color='#000000', width=2)
+                ))
             
             chart_title_text = f"<b>{selected_range} - Active TRP Trend (Frequency)</b>"
             
