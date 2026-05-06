@@ -1,0 +1,226 @@
+[
+  {
+    "Frequency_Range": "LTE Low Frequencies",
+    "Device": "Inseego MiFi Reference Device: IMEI: 7427",
+    "Date": "3/11/26",
+    "Measurements": [
+      {
+        "Band Chan": "B71 Low",
+        "Frequency (Mhz)": "664.58",
+        "TRP (dBm)": "20.21",
+        "TRP Upper Limit (dBm)": "20.71",
+        "TRP Lower Limit (dBm)": "19.71"
+      },
+      {
+        "Band Chan": "B71 Mid",
+        "Frequency (Mhz)": "680.5",
+        "TRP (dBm)": "20.19",
+        "TRP Upper Limit (dBm)": "20.69",
+        "TRP Lower Limit (dBm)": "19.69"
+      },
+      {
+        "Band Chan": "B71 High",
+        "Frequency (Mhz)": "696.42",
+        "TRP (dBm)": "18.88",
+        "TRP Upper Limit (dBm)": "19.38",
+        "TRP Lower Limit (dBm)": "18.38"
+      },
+      {
+        "Band Chan": "B28 Low",
+        "Frequency (Mhz)": "704.58",
+        "TRP (dBm)": "19.87",
+        "TRP Upper Limit (dBm)": "20.37",
+        "TRP Lower Limit (dBm)": "19.37"
+      },
+      {
+        "Band Chan": "B12 Mid",
+        "Frequency (Mhz)": "707.41",
+        "TRP (dBm)": "19.62",
+        "TRP Upper Limit (dBm)": "20.12",
+        "TRP Lower Limit (dBm)": "19.12"
+      },
+      {
+        "Band Chan": "B28 Mid",
+        "Frequency (Mhz)": "725.5",
+        "TRP (dBm)": "18.65",
+        "TRP Upper Limit (dBm)": "19.15",
+        "TRP Lower Limit (dBm)": "18.15"
+      },
+      {
+        "Band Chan": "B28 High",
+        "Frequency (Mhz)": "746.42",
+        "TRP (dBm)": "16.78",
+        "TRP Upper Limit (dBm)": "17.28",
+        "TRP Lower Limit (dBm)": "16.28"
+      },
+      {
+        "Band Chan": "B13 Mid",
+        "Frequency (Mhz)": "782",
+        "TRP (dBm)": "19.20",
+        "TRP Upper Limit (dBm)": "19.70",
+        "TRP Lower Limit (dBm)": "18.70"
+      },
+      {
+        "Band Chan": "B26 Low",
+        "Frequency (Mhz)": "814.97",
+        "TRP (dBm)": "19.03",
+        "TRP Upper Limit (dBm)": "19.53",
+        "TRP Lower Limit (dBm)": "18.53"
+      },
+      {
+        "Band Chan": "B26 Mid",
+        "Frequency (Mhz)": "831.41",
+        "TRP (dBm)": "20.40",
+        "TRP Upper Limit (dBm)": "20.90",
+        "TRP Lower Limit (dBm)": "19.90"
+      },
+      {
+        "Band Chan": "B20 Low",
+        "Frequency (Mhz)": "833.58",
+        "TRP (dBm)": "18.69",
+        "TRP Upper Limit (dBm)": "19.19",
+        "TRP Lower Limit (dBm)": "18.19"
+      },
+      {
+        "Band Chan": "B20 Mid",
+        "Frequency (Mhz)": "847",
+        "TRP (dBm)": "20.23",
+        "TRP Upper Limit (dBm)": "20.73",
+        "TRP Lower Limit (dBm)": "19.73"
+      },
+      {
+        "Band Chan": "B26 High",
+        "Frequency (Mhz)": "848.03",
+        "TRP (dBm)": "20.87",
+        "TRP Upper Limit (dBm)": "21.37",
+        "TRP Lower Limit (dBm)": "20.37"
+      },
+      {
+        "Band Chan": "B20 High",
+        "Frequency (Mhz)": "860.42",
+        "TRP (dBm)": "20.81",
+        "TRP Upper Limit (dBm)": "21.31",
+        "TRP Lower Limit (dBm)": "20.31"
+      },
+      {
+        "Band Chan": "B8 Low",
+        "Frequency (Mhz)": "881.58",
+        "TRP (dBm)": "21.05",
+        "TRP Upper Limit (dBm)": "21.55",
+        "TRP Lower Limit (dBm)": "20.55"
+      },
+      {
+        "Band Chan": "B8 Mid",
+        "Frequency (Mhz)": "897.5",
+        "TRP (dBm)": "21.08",
+        "TRP Upper Limit (dBm)": "21.58",
+        "TRP Lower Limit (dBm)": "20.58"
+      },
+      {
+        "Band Chan": "B8 High",
+        "Frequency (Mhz)": "913.42",
+        "TRP (dBm)": "20.37",
+        "TRP Upper Limit (dBm)": "20.87",
+        "TRP Lower Limit (dBm)": "19.87"
+      }
+    ]
+  },
+  {
+    "Frequency_Range": "LTE Mid Frequencies",
+    "Device": "Inseego MiFi Reference Device: IMEI: 7427",
+    "Date": "3/11/26",
+    "Measurements": [
+      {
+        "Band Chan": "B66 Low",
+        "Frequency (Mhz)": "1711.58",
+        "TRP (dBm)": "20.51",
+        "TRP Upper Limit (dBm)": "21.01",
+        "TRP Lower Limit (dBm)": "20.01"
+      },
+      {
+        "Band Chan": "B66 Mid",
+        "Frequency (Mhz)": "1745",
+        "TRP (dBm)": "20.76",
+        "TRP Upper Limit (dBm)": "21.26",
+        "TRP Lower Limit (dBm)": "20.26"
+      },
+      {
+        "Band Chan": "B66 High",
+        "Frequency (Mhz)": "1778.42",
+        "TRP (dBm)": "19.63",
+        "TRP Upper Limit (dBm)": "20.13",
+        "TRP Lower Limit (dBm)": "19.13"
+      },
+      {
+        "Band Chan": "B25 Low",
+        "Frequency (Mhz)": "1850.97",
+        "TRP (dBm)": "20.67",
+        "TRP Upper Limit (dBm)": "21.17",
+        "TRP Lower Limit (dBm)": "20.17"
+      },
+      {
+        "Band Chan": "B25 Mid",
+        "Frequency (Mhz)": "1882.41",
+        "TRP (dBm)": "20.25",
+        "TRP Upper Limit (dBm)": "20.75",
+        "TRP Lower Limit (dBm)": "19.75"
+      },
+      {
+        "Band Chan": "B25 High",
+        "Frequency (Mhz)": "1914.03",
+        "TRP (dBm)": "19.44",
+        "TRP Upper Limit (dBm)": "19.94",
+        "TRP Lower Limit (dBm)": "18.94"
+      },
+      {
+        "Band Chan": "B1 Low",
+        "Frequency (Mhz)": "1921.58",
+        "TRP (dBm)": "19.67",
+        "TRP Upper Limit (dBm)": "20.17",
+        "TRP Lower Limit (dBm)": "19.17"
+      },
+      {
+        "Band Chan": "B1 Mid",
+        "Frequency (Mhz)": "1950",
+        "TRP (dBm)": "18.95",
+        "TRP Upper Limit (dBm)": "19.45",
+        "TRP Lower Limit (dBm)": "18.45"
+      },
+      {
+        "Band Chan": "B1 High",
+        "Frequency (Mhz)": "1978.42",
+        "TRP (dBm)": "18.46",
+        "TRP Upper Limit (dBm)": "18.96",
+        "TRP Lower Limit (dBm)": "17.96"
+      }
+    ]
+  },
+  {
+    "Frequency_Range": "LTE High Frequencies",
+    "Device": "Inseego MiFi Reference Device: IMEI: 7427",
+    "Date": "3/11/26",
+    "Measurements": [
+      {
+        "Band Chan": "B7 Low",
+        "Frequency (Mhz)": "2502.62",
+        "TRP (dBm)": "17.59",
+        "TRP Upper Limit (dBm)": "18.09",
+        "TRP Lower Limit (dBm)": "17.09"
+      },
+      {
+        "Band Chan": "B7 Mid",
+        "Frequency (Mhz)": "2535",
+        "TRP (dBm)": "18.76",
+        "TRP Upper Limit (dBm)": "19.26",
+        "TRP Lower Limit (dBm)": "18.26"
+      },
+      {
+        "Band Chan": "B7 High",
+        "Frequency (Mhz)": "2567.38",
+        "TRP (dBm)": "17.68",
+        "TRP Upper Limit (dBm)": "18.18",
+        "TRP Lower Limit (dBm)": "17.18"
+      }
+    ]
+  }
+]
