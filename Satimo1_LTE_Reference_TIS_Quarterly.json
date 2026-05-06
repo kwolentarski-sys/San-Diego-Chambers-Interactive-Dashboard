@@ -1,0 +1,226 @@
+[
+  {
+    "Frequency_Range": "LTE Low Frequencies",
+    "Device": "Inseego MiFi Reference Device: IMEI: 7427",
+    "Date": "3/3/26",
+    "Measurements": [
+      {
+        "Band Chan": "B71 Low",
+        "Frequency (Mhz)": "622",
+        "TIS (dBm)": "-96.35",
+        "TIS Upper Limit (dBm)": "-95.85",
+        "TIS Lower Limit (dBm)": "-96.85"
+      },
+      {
+        "Band Chan": "B71 Mid",
+        "Frequency (Mhz)": "634.5",
+        "TIS (dBm)": "-97.27",
+        "TIS Upper Limit (dBm)": "-96.77",
+        "TIS Lower Limit (dBm)": "-97.77"
+      },
+      {
+        "Band Chan": "B71 High",
+        "Frequency (Mhz)": "647",
+        "TIS (dBm)": "-97.29",
+        "TIS Upper Limit (dBm)": "-96.79",
+        "TIS Lower Limit (dBm)": "-97.79"
+      },
+      {
+        "Band Chan": "B12 Mid",
+        "Frequency (Mhz)": "737.5",
+        "TIS (dBm)": "-100.14",
+        "TIS Upper Limit (dBm)": "-99.64",
+        "TIS Lower Limit (dBm)": "-100.64"
+      },
+      {
+        "Band Chan": "B13 Mid",
+        "Frequency (Mhz)": "751",
+        "TIS (dBm)": "-96.84",
+        "TIS Upper Limit (dBm)": "-96.34",
+        "TIS Lower Limit (dBm)": "-97.34"
+      },
+      {
+        "Band Chan": "B28 Low",
+        "Frequency (Mhz)": "763",
+        "TIS (dBm)": "-96.97",
+        "TIS Upper Limit (dBm)": "-96.47",
+        "TIS Lower Limit (dBm)": "-97.47"
+      },
+      {
+        "Band Chan": "B28 Mid",
+        "Frequency (Mhz)": "780.5",
+        "TIS (dBm)": "-97.70",
+        "TIS Upper Limit (dBm)": "-97.20",
+        "TIS Lower Limit (dBm)": "-98.20"
+      },
+      {
+        "Band Chan": "B20 Low",
+        "Frequency (Mhz)": "796",
+        "TIS (dBm)": "-98.16",
+        "TIS Upper Limit (dBm)": "-97.66",
+        "TIS Lower Limit (dBm)": "-98.66"
+      },
+      {
+        "Band Chan": "B28 High",
+        "Frequency (Mhz)": "798",
+        "TIS (dBm)": "-96.94",
+        "TIS Upper Limit (dBm)": "-96.44",
+        "TIS Lower Limit (dBm)": "-97.44"
+      },
+      {
+        "Band Chan": "B20 Mid",
+        "Frequency (Mhz)": "806",
+        "TIS (dBm)": "-98.95",
+        "TIS Upper Limit (dBm)": "-98.45",
+        "TIS Lower Limit (dBm)": "-99.45"
+      },
+      {
+        "Band Chan": "B20 High",
+        "Frequency (Mhz)": "816",
+        "TIS (dBm)": "-98.65",
+        "TIS Upper Limit (dBm)": "-98.15",
+        "TIS Lower Limit (dBm)": "-99.15"
+      },
+      {
+        "Band Chan": "B26 Low",
+        "Frequency (Mhz)": "861.5",
+        "TIS (dBm)": "-100.60",
+        "TIS Upper Limit (dBm)": "-100.10",
+        "TIS Lower Limit (dBm)": "-101.10"
+      },
+      {
+        "Band Chan": "B26 Mid",
+        "Frequency (Mhz)": "876.5",
+        "TIS (dBm)": "-101.09",
+        "TIS Upper Limit (dBm)": "-100.59",
+        "TIS Lower Limit (dBm)": "-101.59"
+      },
+      {
+        "Band Chan": "B26 High",
+        "Frequency (Mhz)": "891.5",
+        "TIS (dBm)": "-101.46",
+        "TIS Upper Limit (dBm)": "-100.96",
+        "TIS Lower Limit (dBm)": "-101.96"
+      },
+      {
+        "Band Chan": "B8 Low",
+        "Frequency (Mhz)": "930",
+        "TIS (dBm)": "-98.52",
+        "TIS Upper Limit (dBm)": "-98.02",
+        "TIS Lower Limit (dBm)": "-99.02"
+      },
+      {
+        "Band Chan": "B8 Mid",
+        "Frequency (Mhz)": "942.5",
+        "TIS (dBm)": "-98.70",
+        "TIS Upper Limit (dBm)": "-98.20",
+        "TIS Lower Limit (dBm)": "-99.20"
+      },
+      {
+        "Band Chan": "B8 High",
+        "Frequency (Mhz)": "955",
+        "TIS (dBm)": "-98.32",
+        "TIS Upper Limit (dBm)": "-97.82",
+        "TIS Lower Limit (dBm)": "-98.82"
+      }
+    ]
+  },
+  {
+    "Frequency_Range": "LTE Mid Frequencies",
+    "Device": "Inseego MiFi Reference Device: IMEI: 7427",
+    "Date": "3/3/26",
+    "Measurements": [
+      {
+        "Band Chan": "B3 Low",
+        "Frequency (Mhz)": "1810",
+        "TIS (dBm)": "-100.17",
+        "TIS Upper Limit (dBm)": "-99.67",
+        "TIS Lower Limit (dBm)": "-100.67"
+      },
+      {
+        "Band Chan": "B3 Mid",
+        "Frequency (Mhz)": "1842.5",
+        "TIS (dBm)": "-100.09",
+        "TIS Upper Limit (dBm)": "-99.59",
+        "TIS Lower Limit (dBm)": "-100.59"
+      },
+      {
+        "Band Chan": "B3 High",
+        "Frequency (Mhz)": "1875",
+        "TIS (dBm)": "-99.69",
+        "TIS Upper Limit (dBm)": "-99.19",
+        "TIS Lower Limit (dBm)": "-100.19"
+      },
+      {
+        "Band Chan": "B25 Low",
+        "Frequency (Mhz)": "1932.5",
+        "TIS (dBm)": "-101.25",
+        "TIS Upper Limit (dBm)": "-100.75",
+        "TIS Lower Limit (dBm)": "-101.75"
+      },
+      {
+        "Band Chan": "B25 Mid",
+        "Frequency (Mhz)": "1962.5",
+        "TIS (dBm)": "-102.34",
+        "TIS Upper Limit (dBm)": "-101.84",
+        "TIS Lower Limit (dBm)": "-102.84"
+      },
+      {
+        "Band Chan": "B25 High",
+        "Frequency (Mhz)": "1992.5",
+        "TIS (dBm)": "-102.51",
+        "TIS Upper Limit (dBm)": "-102.01",
+        "TIS Lower Limit (dBm)": "-103.01"
+      },
+      {
+        "Band Chan": "B66 Low",
+        "Frequency (Mhz)": "2115",
+        "TIS (dBm)": "-100.38",
+        "TIS Upper Limit (dBm)": "-99.88",
+        "TIS Lower Limit (dBm)": "-100.88"
+      },
+      {
+        "Band Chan": "B66 Mid",
+        "Frequency (Mhz)": "2145",
+        "TIS (dBm)": "-100.25",
+        "TIS Upper Limit (dBm)": "-99.75",
+        "TIS Lower Limit (dBm)": "-100.75"
+      },
+      {
+        "Band Chan": "B66 High",
+        "Frequency (Mhz)": "2175",
+        "TIS (dBm)": "-100.36",
+        "TIS Upper Limit (dBm)": "-99.86",
+        "TIS Lower Limit (dBm)": "-100.86"
+      }
+    ]
+  },
+  {
+    "Frequency_Range": "LTE High Frequencies",
+    "Device": "Inseego MiFi Reference Device: IMEI: 7427",
+    "Date": "3/3/26",
+    "Measurements": [
+      {
+        "Band Chan": "B7 Low",
+        "Frequency (Mhz)": "2630",
+        "TIS (dBm)": "-98.09",
+        "TIS Upper Limit (dBm)": "-97.59",
+        "TIS Lower Limit (dBm)": "-98.59"
+      },
+      {
+        "Band Chan": "B7 Mid",
+        "Frequency (Mhz)": "2655",
+        "TIS (dBm)": "-97.96",
+        "TIS Upper Limit (dBm)": "-97.46",
+        "TIS Lower Limit (dBm)": "-98.46"
+      },
+      {
+        "Band Chan": "B7 High",
+        "Frequency (Mhz)": "2680",
+        "TIS (dBm)": "-97.54",
+        "TIS Upper Limit (dBm)": "-97.04",
+        "TIS Lower Limit (dBm)": "-98.04"
+      }
+    ]
+  }
+]
