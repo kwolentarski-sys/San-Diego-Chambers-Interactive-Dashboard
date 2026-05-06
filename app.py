@@ -242,7 +242,7 @@ elif test_desc_choice == "aGPS L5 Pattern Only":
 st.sidebar.markdown("---") # Visual divider
 summary_report_choice = st.sidebar.selectbox(
     "**Select Summary Report:**",
-    ("🔵 None", "Quarterly Summary", "Yearly Summary")
+    ("🔵 None", "Satimo 1 Passive Report", "Satimo 1 Active Report")
 )
 
 # Map Chamber selection to file prefix
