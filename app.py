@@ -238,7 +238,6 @@ elif test_desc_choice == "aGPS L5 Pattern Only":
     except FileNotFoundError:
         st.sidebar.warning("Upload **`aGPS_L5_Pattern_Only.md`** to view this description.")
 
-
 # Map Chamber selection to file prefix
 prefix_map = {
     "Satimo 1 (24 Probe)": "Satimo1_",
@@ -322,7 +321,6 @@ except FileNotFoundError:
 except json.JSONDecodeError:
     st.error(f"Error reading '{target_file}'. Please ensure it is valid JSON syntax.")
     st.stop()
-
 
 # --- ROUTING LOGIC BASED ON DATASET TYPE ---
 
@@ -461,13 +459,19 @@ elif active_dataset_choice in ["Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz"
         if measurements:
             df = pd.DataFrame(measurements)
             
-            # Clean and format the data conditionally based on what's in the JSON
+            # Clean and format the main data conditionally based on what's in the JSON
             if 'Frequency (Mhz)' in df.columns:
                 df['Frequency (Mhz)'] = pd.to_numeric(df['Frequency (Mhz)'], errors='coerce')
             if 'TRP (dBm)' in df.columns:
                 df['TRP (dBm)'] = pd.to_numeric(df['TRP (dBm)'], errors='coerce')
             if 'TIS (dBm)' in df.columns:
                 df['TIS (dBm)'] = pd.to_numeric(df['TIS (dBm)'], errors='coerce')
+                
+            # Clean and format the limits
+            limit_cols = ['TRP Upper Limit (dBm)', 'TRP Lower Limit (dBm)', 'TIS Upper Limit (dBm)', 'TIS Lower Limit (dBm)']
+            for col in limit_cols:
+                if col in df.columns:
+                    df[col] = pd.to_numeric(df[col], errors='coerce')
             
             # Dashboard Headers
             st.markdown(f"<h3 style='color: #0000ff;'>Quarterly - Active Validation Measurements - {active_dataset_choice}</h3>", unsafe_allow_html=True)
@@ -499,6 +503,26 @@ elif active_dataset_choice in ["Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz"
                     line=dict(color='#0000ff'),
                     marker=dict(color='#0000ff', size=8)
                 ))
+                
+                # Add TRP Upper Limit
+                if 'TRP Upper Limit (dBm)' in df.columns and df['TRP Upper Limit (dBm)'].notna().any():
+                    fig_trp.add_trace(go.Scatter(
+                        x=df['Band Chan'],
+                        y=df['TRP Upper Limit (dBm)'],
+                        mode='lines',
+                        name='<b>Upper Limit (dBm)</b>',
+                        line=dict(dash='dot', color='#000000', width=2)
+                    ))
+
+                # Add TRP Lower Limit
+                if 'TRP Lower Limit (dBm)' in df.columns and df['TRP Lower Limit (dBm)'].notna().any():
+                    fig_trp.add_trace(go.Scatter(
+                        x=df['Band Chan'],
+                        y=df['TRP Lower Limit (dBm)'],
+                        mode='lines',
+                        name='<b>Lower Limit (dBm)</b>',
+                        line=dict(dash='dot', color='#000000', width=2)
+                    ))
                 
                 fig_trp.update_layout(
                     title=dict(
@@ -548,6 +572,26 @@ elif active_dataset_choice in ["Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz"
                     line=dict(color='#ff0000'), # Red for TIS to distinguish from TRP
                     marker=dict(color='#ff0000', size=8)
                 ))
+
+                # Add TIS Upper Limit
+                if 'TIS Upper Limit (dBm)' in df.columns and df['TIS Upper Limit (dBm)'].notna().any():
+                    fig_tis.add_trace(go.Scatter(
+                        x=df['Band Chan'],
+                        y=df['TIS Upper Limit (dBm)'],
+                        mode='lines',
+                        name='<b>Upper Limit (dBm)</b>',
+                        line=dict(dash='dot', color='#000000', width=2)
+                    ))
+
+                # Add TIS Lower Limit
+                if 'TIS Lower Limit (dBm)' in df.columns and df['TIS Lower Limit (dBm)'].notna().any():
+                    fig_tis.add_trace(go.Scatter(
+                        x=df['Band Chan'],
+                        y=df['TIS Lower Limit (dBm)'],
+                        mode='lines',
+                        name='<b>Lower Limit (dBm)</b>',
+                        line=dict(dash='dot', color='#000000', width=2)
+                    ))
                 
                 fig_tis.update_layout(
                     title=dict(
