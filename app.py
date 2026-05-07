@@ -343,25 +343,106 @@ if summary_report_choice == "Satimo 1 Passive Report":
         report_title = raw_data.get("Report_Name", "Passive Validation Summary Report")
         st.markdown(f"<h3 style='color: #0000ff;'>Satimo 1 - {report_title}</h3>", unsafe_allow_html=True)
         
+        # Helper function to dynamically check pass/fail from the raw passive data files
+        def evaluate_antenna_limits(chamber_prefix, category_name, antenna_name):
+            file_map = {
+                "Monthly Horns": f"{chamber_prefix}Horns_Monthly.json",
+                "Quarterly Dipoles": f"{chamber_prefix}Dipoles_Quarterly.json",
+                "Yearly Dipoles": f"{chamber_prefix}Dipoles_Yearly.json"
+            }
+            file_to_load = file_map.get(category_name)
+            if not file_to_load: return "N/A", "N/A"
+            
+            try:
+                c_data = load_data(file_to_load)
+            except Exception:
+                return "N/A", "N/A"
+                
+            parsed_list = []
+            if isinstance(c_data, list):
+                parsed_list = c_data
+            elif isinstance(c_data, dict):
+                if any(isinstance(v, dict) and "Data" in v for v in c_data.values()):
+                    for dev_name, dev_info in c_data.items():
+                        m_list = []
+                        for row in dev_info.get("Data", []):
+                            try:
+                                m_val = row.get("Efficiency (dB)_Date", row.get("Efficiency (dB)_3", float('nan')))
+                                u_val = row.get("Efficiency (dB)_Upper Limit", float('nan'))
+                                l_val = row.get("Efficiency (dB)_Lower Limit", float('nan'))
+                                m_list.append({
+                                    "meas": float(m_val) if str(m_val).strip() != "" else float('nan'),
+                                    "up": float(u_val) if str(u_val).strip() != "" else float('nan'),
+                                    "low": float(l_val) if str(l_val).strip() != "" else float('nan')
+                                })
+                            except Exception:
+                                continue
+                        parsed_list.append({"dipole_name": dev_name, "measurements": m_list})
+                elif "dipole_name" in c_data:
+                    parsed_list = [c_data]
+                else:
+                    for k, v in c_data.items():
+                        if isinstance(v, list) and len(v) > 0 and isinstance(v[0], dict):
+                            parsed_list = v
+                            break
+                            
+            target_m = []
+            for item in parsed_list:
+                d_name = item.get("dipole_name", "")
+                if antenna_name in d_name:
+                    for raw_m in item.get("measurements", []):
+                        meas = raw_m.get("meas", raw_m.get("efficiency_db_measured", float('nan')))
+                        up = raw_m.get("up", raw_m.get("upper_limit", float('nan')))
+                        low = raw_m.get("low", raw_m.get("lower_limit", float('nan')))
+                        target_m.append({"meas": meas, "up": up, "low": low})
+                    break
+                    
+            if not target_m:
+                return "N/A", "N/A"
+                
+            up_status = "PASS"
+            low_status = "PASS"
+            valid_count = 0
+            
+            for point in target_m:
+                m = point["meas"]
+                u = point["up"]
+                l = point["low"]
+                
+                if pd.notna(m):
+                    valid_count += 1
+                    if pd.notna(u) and m > u:
+                        up_status = "FAIL"
+                    if pd.notna(l) and m < l:
+                        low_status = "FAIL"
+                        
+            if valid_count == 0:
+                return "N/A", "N/A"
+            
+            has_upper = any(pd.notna(point["up"]) for point in target_m)
+            has_lower = any(pd.notna(point["low"]) for point in target_m)
+            
+            if not has_upper: up_status = "N/A"
+            if not has_lower: low_status = "N/A"
+            
+            return up_status, low_status
+
         all_rows = []
         for category in ["Monthly Horns", "Quarterly Dipoles", "Yearly Dipoles"]:
             if category in raw_data:
                 for item in raw_data[category]:
                     antenna = item.get("Antenna", "Unknown")
                     date = item.get("Date", "N/A")
-                    upper = str(item.get("Upper Limit", "")).strip()
-                    lower = str(item.get("Lower Limit", "")).strip()
                     
-                    # Compute status based on populated JSON strings
-                    if upper == "" and lower == "":
-                        upper_display = "N/A"
-                        lower_display = "N/A"
-                    elif "fail" in upper.lower() or "fail" in lower.lower():
-                        upper_display = upper if upper else "PASS"
-                        lower_display = lower if lower else "PASS"
-                    else:
-                        upper_display = upper if upper else "PASS"
-                        lower_display = lower if lower else "PASS"
+                    # Compute status dynamically based on the actual raw data graphs
+                    dyn_up, dyn_low = evaluate_antenna_limits(prefix, category, antenna)
+                    
+                    # Fallback to manual entry if dynamic check is N/A
+                    json_up = str(item.get("Upper Limit", "")).strip().upper()
+                    json_low = str(item.get("Lower Limit", "")).strip().upper()
+                    
+                    upper_display = dyn_up if dyn_up != "N/A" else (json_up if json_up else "N/A")
+                    lower_display = dyn_low if dyn_low != "N/A" else (json_low if json_low else "N/A")
                         
                     all_rows.append({
                         "Test Category": category,
