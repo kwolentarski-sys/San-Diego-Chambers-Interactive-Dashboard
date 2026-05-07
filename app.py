@@ -28,9 +28,9 @@ def load_data(filename):
 def get_bg_color(val):
     val_str = str(val).strip().upper()
     if "FAIL" in val_str:
-        return '#da0303' # Red
+        return '#f4cccc' # Light Red
     elif "PASS" in val_str:
-        return '#04c136' # Green
+        return '#d9ead3' # Light Green
     else:
         return '#ffffff' # White
 
@@ -655,7 +655,7 @@ elif summary_report_choice == "Satimo 1 Active Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring mapping
+            # Dynamic cell coloring via native Plotly property
             fill_color_cells = []
             font_color_cells = []
             for col in df_report.columns:
