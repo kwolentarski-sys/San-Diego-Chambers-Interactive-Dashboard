@@ -354,15 +354,12 @@ if summary_report_choice == "Satimo 1 Passive Report":
                     
                     # Compute status based on populated JSON strings
                     if upper == "" and lower == "":
-                        status = "⚠️ Awaiting Data"
                         upper_display = "N/A"
                         lower_display = "N/A"
                     elif "fail" in upper.lower() or "fail" in lower.lower():
-                        status = "❌ FAIL"
                         upper_display = upper if upper else "PASS"
                         lower_display = lower if lower else "PASS"
                     else:
-                        status = "✅ PASS"
                         upper_display = upper if upper else "PASS"
                         lower_display = lower if lower else "PASS"
                         
@@ -371,8 +368,7 @@ if summary_report_choice == "Satimo 1 Passive Report":
                         "Antenna": antenna,
                         "Date": date,
                         "Upper Limit Result": upper_display,
-                        "Lower Limit Result": lower_display,
-                        "Overall Status": status
+                        "Lower Limit Result": lower_display
                     })
                     
         if all_rows:
@@ -384,7 +380,7 @@ if summary_report_choice == "Satimo 1 Passive Report":
             # Dynamic cell coloring for Pass/Fail/Pending
             fill_color_cells = []
             for col in df_report.columns:
-                if col == "Overall Status" or col == "Upper Limit Result" or col == "Lower Limit Result":
+                if col == "Upper Limit Result" or col == "Lower Limit Result":
                     fill_color_cells.append(['#ffcccc' if 'FAIL' in str(v).upper() else '#ccffcc' if 'PASS' in str(v).upper() else '#fff2cc' for v in df_report[col]])
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
