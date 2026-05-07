@@ -325,8 +325,11 @@ known_files = [
     'Satimo2_Dipoles_Quarterly.json',
     'Satimo2_Horns_Monthly.json',
     'Satimo1_LTE_Reference_TRP_Quarterly.json', 
+    'Satimo2_LTE_Reference_TRP_Quarterly.json',
     'Satimo1_LTE_Reference_TIS_Quarterly.json',
+    'Satimo2_LTE_Reference_TIS_Quarterly.json',
     'Satimo1_Pixel_Phone_S4_Dipoles_Quarterly.json',
+    'Satimo2_Pixel_Phone_S4_Dipoles_Quarterly.json',
     'Satimo1_Phantom_Wrist_Dielectric_Quarterly.json',
     'Satimo3_Bluetooth_BDR_Quarterly.json',
     'Satimo3_Bluetooth_EDR2_Quarterly.json',
@@ -577,11 +580,20 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
             for raw_m in all_measurements:
                 match = False
                 if category_name in ["LTE TRP", "LTE TIS"]:
-                    if str(raw_m.get("Band Chan", "")) == str(item_id):
+                    # Exact string matching for Bands/Channels (e.g. "B71 Low")
+                    if str(raw_m.get("Band Chan", "")).strip().upper() == str(item_id).strip().upper():
                         match = True
-                else: # Pixel Phone uses Frequency
-                    if str(raw_m.get("Frequency (MHz)", raw_m.get("Frequency (Mhz)", ""))) == str(item_id):
-                        match = True
+                else: # Pixel Phone uses Frequencies
+                    try:
+                        # Convert to float to handle formatting differences (e.g. 680.50 vs 680.5)
+                        raw_freq = float(raw_m.get("Frequency (MHz)", raw_m.get("Frequency (Mhz)", -9999)))
+                        item_freq = float(item_id)
+                        if abs(raw_freq - item_freq) < 0.001:
+                            match = True
+                    except (ValueError, TypeError):
+                        # Fallback to string if casting fails
+                        if str(raw_m.get("Frequency (MHz)", "")).strip() == str(item_id).strip():
+                            match = True
                 
                 if match:
                     if category_name == "LTE TRP":
@@ -672,7 +684,7 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring mapping
+            # Dynamic cell coloring via native Plotly property
             fill_color_cells = []
             font_color_cells = []
             for col in df_report.columns:
