@@ -500,9 +500,190 @@ if summary_report_choice == "Satimo 1 Passive Report":
         st.error("Data structure error: Summary report must be a JSON dictionary.")
 
 elif summary_report_choice == "Satimo 1 Active Report":
-    # --- Placeholder for Active Summary Report ---
-    st.markdown("<h3 style='color: #0000ff;'>Satimo 1 - Active Validation Summary Report</h3>", unsafe_allow_html=True)
-    st.info("🏗️ The Active Validation Summary Report is currently under construction.")
+    # --- Logic for Active Validation Summary Report Table ---
+    if isinstance(raw_data, dict):
+        report_title = raw_data.get("Report_Name", "Active Validation Summary Report")
+        st.markdown(f"<h3 style='color: #0000ff;'>Satimo 1 - {report_title}</h3>", unsafe_allow_html=True)
+        
+        # Helper function to dynamically check pass/fail from the raw active data files
+        def evaluate_active_limits(chamber_prefix, category_name, item_id):
+            if category_name == "Pixel Phone with Dipoles":
+                if chamber_prefix == "Satimo1_":
+                    file_to_load = "Satimo1_Pixel_Phone_S4_Dipoles_Quarterly.json"
+                else:
+                    file_to_load = f"{chamber_prefix}Pixel_Phone_S4_Dipoles_Quarterly.json"
+            elif category_name == "LTE TRP":
+                file_to_load = f"{chamber_prefix}LTE_Reference_TRP_Quarterly.json"
+            elif category_name == "LTE TIS":
+                file_to_load = f"{chamber_prefix}LTE_Reference_TIS_Quarterly.json"
+            else:
+                return "N/A", "N/A"
+                
+            try:
+                c_data = load_data(file_to_load)
+            except Exception:
+                return "N/A", "N/A"
+                
+            all_measurements = []
+            if category_name in ["LTE TRP", "LTE TIS"]:
+                if isinstance(c_data, dict):
+                    for k, v in c_data.items():
+                        if isinstance(v, dict) and "Data" in v:
+                            all_measurements.extend(v.get("Data", []))
+                        elif isinstance(v, list):
+                            all_measurements.extend(v)
+                elif isinstance(c_data, list):
+                    for item in c_data:
+                        if isinstance(item, dict) and "Measurements" in item:
+                            all_measurements.extend(item.get("Measurements", []))
+                        else:
+                            all_measurements.append(item)
+            else: # Pixel Phone
+                if isinstance(c_data, dict):
+                    for k, v in c_data.items():
+                        if isinstance(v, dict) and "Data" in v:
+                            all_measurements.extend(v.get("Data", []))
+                elif isinstance(c_data, list):
+                    all_measurements = c_data
+
+            target_m = []
+            for raw_m in all_measurements:
+                match = False
+                if category_name in ["LTE TRP", "LTE TIS"]:
+                    if str(raw_m.get("Band Chan", "")) == str(item_id):
+                        match = True
+                else: # Pixel Phone uses Frequency
+                    if str(raw_m.get("Frequency (MHz)", raw_m.get("Frequency (Mhz)", ""))) == str(item_id):
+                        match = True
+                
+                if match:
+                    if category_name == "LTE TRP":
+                        meas = raw_m.get("TRP (dBm)", float('nan'))
+                        up = raw_m.get("TRP Upper Limit (dBm)", float('nan'))
+                        low = raw_m.get("TRP Lower Limit (dBm)", float('nan'))
+                    elif category_name == "LTE TIS":
+                        meas = raw_m.get("TIS (dBm)", float('nan'))
+                        up = raw_m.get("TIS Upper Limit (dBm)", float('nan'))
+                        low = raw_m.get("TIS Lower Limit (dBm)", float('nan'))
+                    else: # Pixel Phone
+                        meas = raw_m.get("Measured TRP (dBm)", raw_m.get("Measured Total Radiated Power (dBm)", float('nan')))
+                        up = raw_m.get("Upper Limit", float('nan'))
+                        low = raw_m.get("Lower Limit", float('nan'))
+                    
+                    try: meas = float(meas) if str(meas).strip() != "" else float('nan')
+                    except Exception: meas = float('nan')
+                    try: up = float(up) if str(up).strip() != "" else float('nan')
+                    except Exception: up = float('nan')
+                    try: low = float(low) if str(low).strip() != "" else float('nan')
+                    except Exception: low = float('nan')
+                    
+                    target_m.append({"meas": meas, "up": up, "low": low})
+
+            if not target_m:
+                return "N/A", "N/A"
+                
+            up_status = "PASS"
+            low_status = "PASS"
+            valid_count = 0
+            
+            for point in target_m:
+                m = point["meas"]
+                u = point["up"]
+                l = point["low"]
+                
+                if pd.notna(m):
+                    valid_count += 1
+                    if pd.notna(u) and m > u:
+                        up_status = "FAIL"
+                    if pd.notna(l) and m < l:
+                        low_status = "FAIL"
+                        
+            if valid_count == 0:
+                return "N/A", "N/A"
+            
+            has_upper = any(pd.notna(point["up"]) for point in target_m)
+            has_lower = any(pd.notna(point["low"]) for point in target_m)
+            
+            if not has_upper: up_status = "N/A"
+            if not has_lower: low_status = "N/A"
+            
+            return up_status, low_status
+
+        all_rows = []
+        for category in ["LTE TRP", "LTE TIS", "Pixel Phone with Dipoles"]:
+            if category in raw_data:
+                for item in raw_data[category]:
+                    if category in ["LTE TRP", "LTE TIS"]:
+                        identifier = item.get("Band Chan", "Unknown")
+                    else:
+                        identifier = item.get("Frequency (MHz)", "Unknown")
+                        
+                    date = item.get("Date", "N/A")
+                    
+                    # Compute status dynamically based on the actual raw data graphs
+                    dyn_up, dyn_low = evaluate_active_limits(prefix, category, identifier)
+                    
+                    # Fallback to manual entry if dynamic check is N/A
+                    json_up = str(item.get("Upper Limit", "")).strip().upper()
+                    json_low = str(item.get("Lower Limit", "")).strip().upper()
+                    
+                    upper_display = dyn_up if dyn_up != "N/A" else (json_up if json_up else "N/A")
+                    lower_display = dyn_low if dyn_low != "N/A" else (json_low if json_low else "N/A")
+                        
+                    all_rows.append({
+                        "Test Category": category,
+                        "Band / Freq": identifier,
+                        "Date": date,
+                        "Upper Limit Result": upper_display,
+                        "Lower Limit Result": lower_display
+                    })
+                    
+        if all_rows:
+            df_report = pd.DataFrame(all_rows)
+            
+            header_values = [f"<b>{col}</b>" for col in df_report.columns]
+            cell_values = [df_report[col] for col in df_report.columns]
+            
+            # Dynamic cell coloring (White for limits)
+            fill_color_cells = []
+            font_color_cells = []
+            for col in df_report.columns:
+                if col in ["Upper Limit Result", "Lower Limit Result"]:
+                    fill_color_cells.append(['#ffffff'] * len(df_report))
+                    font_color_cells.append(['#da0303' if 'FAIL' in str(v).upper() else '#04c136' if 'PASS' in str(v).upper() else '#000000' for v in df_report[col]])
+                else:
+                    fill_color_cells.append(['#e9f1ff'] * len(df_report))
+                    font_color_cells.append(['#000000'] * len(df_report))
+                    
+            fig_table = go.Figure(data=[go.Table(
+                header=dict(
+                    values=header_values,
+                    fill_color='#d9d9d9',
+                    line=dict(color='black', width=1),
+                    font=dict(color='#000000', size=16),
+                    align='center',
+                    height=40
+                ),
+                cells=dict(
+                    values=cell_values,
+                    fill_color=fill_color_cells,
+                    line=dict(color='black', width=1),
+                    font=dict(color=font_color_cells, size=15),
+                    align='center',
+                    height=35
+                )
+            )])
+            
+            fig_table.update_layout(
+                margin=dict(l=20, r=20, t=20, b=20),
+                height=800
+            )
+            
+            st.plotly_chart(fig_table, use_container_width=True)
+        else:
+            st.warning("No data found in the summary report.")
+    else:
+        st.error("Data structure error: Summary report must be a JSON dictionary.")
 
 elif active_dataset_choice in ["aGPS L1 TIS", "aGPS L5 Pattern Only"]:
     # --- Logic for aGPS L1 TIS & aGPS L5 Pattern Only Table Data ---
