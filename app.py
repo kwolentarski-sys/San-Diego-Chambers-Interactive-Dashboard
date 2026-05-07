@@ -458,13 +458,16 @@ if summary_report_choice == "Satimo 1 Passive Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring for Pass/Fail/Pending
+            # Dynamic cell coloring (White for limits)
             fill_color_cells = []
+            font_color_cells = []
             for col in df_report.columns:
-                if col == "Upper Limit Result" or col == "Lower Limit Result":
-                    fill_color_cells.append(['#ffcccc' if 'FAIL' in str(v).upper() else '#ccffcc' if 'PASS' in str(v).upper() else '#fff2cc' for v in df_report[col]])
+                if col in ["Upper Limit Result", "Lower Limit Result"]:
+                    fill_color_cells.append(['#ffffff'] * len(df_report))
+                    font_color_cells.append(['#da0303' if 'FAIL' in str(v).upper() else '#04c136' if 'PASS' in str(v).upper() else '#000000' for v in df_report[col]])
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
+                    font_color_cells.append(['#000000'] * len(df_report))
                     
             fig_table = go.Figure(data=[go.Table(
                 header=dict(
@@ -479,7 +482,7 @@ if summary_report_choice == "Satimo 1 Passive Report":
                     values=cell_values,
                     fill_color=fill_color_cells,
                     line=dict(color='black', width=1),
-                    font=dict(color='black', size=15),
+                    font=dict(color=font_color_cells, size=15),
                     align='center',
                     height=35
                 )
