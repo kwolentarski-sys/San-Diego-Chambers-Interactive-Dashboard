@@ -1764,7 +1764,6 @@ elif dataset_choice == "Wideband Dipole Chamber Comparison":
                         e_val = float(row[e_key])
                         if e_val > 0 and e_val > max_overshoot_val:
                             max_overshoot_val = e_val
-                            max_overshoot_freq = f_val
                             max_overshoot_chamber = chamber_name
                 except (ValueError, TypeError):
                     continue
