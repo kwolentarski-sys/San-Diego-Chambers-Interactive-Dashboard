@@ -24,17 +24,6 @@ def load_data(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-# Helper function for strictly formatting pass/fail text with HTML
-def format_status(val):
-    val_str = str(val).strip()
-    upper_str = val_str.upper()
-    if "FAIL" in upper_str:
-        return f"<span style='color: #da0303;'>{val_str}</span>"
-    elif "PASS" in upper_str:
-        return f"<span style='color: #04c136;'>{val_str}</span>"
-    else:
-        return val_str
-
 # Dictionary to map antenna names to their frequency ranges for titles
 ANTENNA_RANGES = {
     # Dipoles
@@ -411,8 +400,8 @@ if summary_report_choice == "Satimo 1 Passive Report":
             if not target_m:
                 return "N/A", "N/A"
                 
-            up_status = "PASS"
-            low_status = "PASS"
+            up_status = "Pass"
+            low_status = "Pass"
             valid_count = 0
             
             for point in target_m:
@@ -423,9 +412,9 @@ if summary_report_choice == "Satimo 1 Passive Report":
                 if pd.notna(m):
                     valid_count += 1
                     if pd.notna(u) and m > u:
-                        up_status = "FAIL"
+                        up_status = "Fail"
                     if pd.notna(l) and m < l:
-                        low_status = "FAIL"
+                        low_status = "Fail"
                         
             if valid_count == 0:
                 return "N/A", "N/A"
@@ -449,8 +438,8 @@ if summary_report_choice == "Satimo 1 Passive Report":
                     dyn_up, dyn_low = evaluate_antenna_limits(prefix, category, antenna)
                     
                     # Fallback to manual entry if dynamic check is N/A
-                    json_up = str(item.get("Upper Limit", "")).strip().upper()
-                    json_low = str(item.get("Lower Limit", "")).strip().upper()
+                    json_up = str(item.get("Upper Limit", "")).strip().capitalize()
+                    json_low = str(item.get("Lower Limit", "")).strip().capitalize()
                     
                     upper_display = dyn_up if dyn_up != "N/A" else (json_up if json_up else "N/A")
                     lower_display = dyn_low if dyn_low != "N/A" else (json_low if json_low else "N/A")
@@ -459,8 +448,8 @@ if summary_report_choice == "Satimo 1 Passive Report":
                         "Test Category": category,
                         "Antenna": antenna,
                         "Date": date,
-                        "Upper Limit Result": format_status(upper_display),
-                        "Lower Limit Result": format_status(lower_display)
+                        "Upper Limit Result": upper_display,
+                        "Lower Limit Result": lower_display
                     })
                     
         if all_rows:
@@ -469,13 +458,16 @@ if summary_report_choice == "Satimo 1 Passive Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring (White background for limits)
+            # Dynamic cell coloring via native Plotly property
             fill_color_cells = []
+            font_color_cells = []
             for col in df_report.columns:
                 if col in ["Upper Limit Result", "Lower Limit Result"]:
                     fill_color_cells.append(['#ffffff'] * len(df_report))
+                    font_color_cells.append(['#da0303' if 'Fail' in str(v) else '#04c136' if 'Pass' in str(v) else '#000000' for v in df_report[col]])
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
+                    font_color_cells.append(['#000000'] * len(df_report))
                     
             fig_table = go.Figure(data=[go.Table(
                 header=dict(
@@ -490,7 +482,7 @@ if summary_report_choice == "Satimo 1 Passive Report":
                     values=cell_values,
                     fill_color=fill_color_cells,
                     line=dict(color='black', width=1),
-                    font=dict(color='#000000', size=15),
+                    font=dict(color=font_color_cells, size=15),
                     align='center',
                     height=35
                 )
@@ -590,8 +582,8 @@ elif summary_report_choice == "Satimo 1 Active Report":
             if not target_m:
                 return "N/A", "N/A"
                 
-            up_status = "PASS"
-            low_status = "PASS"
+            up_status = "Pass"
+            low_status = "Pass"
             valid_count = 0
             
             for point in target_m:
@@ -603,9 +595,9 @@ elif summary_report_choice == "Satimo 1 Active Report":
                     valid_count += 1
                     # Using the standard limit logic (fails if measured > upper OR measured < lower)
                     if pd.notna(u) and m > u:
-                        up_status = "FAIL"
+                        up_status = "Fail"
                     if pd.notna(l) and m < l:
-                        low_status = "FAIL"
+                        low_status = "Fail"
                         
             if valid_count == 0:
                 return "N/A", "N/A"
@@ -633,8 +625,8 @@ elif summary_report_choice == "Satimo 1 Active Report":
                     dyn_up, dyn_low = evaluate_active_limits(prefix, category, identifier)
                     
                     # Fallback to manual entry if dynamic check is N/A
-                    json_up = str(item.get("Upper Limit", "")).strip().upper()
-                    json_low = str(item.get("Lower Limit", "")).strip().upper()
+                    json_up = str(item.get("Upper Limit", "")).strip().capitalize()
+                    json_low = str(item.get("Lower Limit", "")).strip().capitalize()
                     
                     upper_display = dyn_up if dyn_up != "N/A" else (json_up if json_up else "N/A")
                     lower_display = dyn_low if dyn_low != "N/A" else (json_low if json_low else "N/A")
@@ -643,8 +635,8 @@ elif summary_report_choice == "Satimo 1 Active Report":
                         "Test Category": category,
                         "Band / Freq": identifier,
                         "Date": date,
-                        "Upper Limit Result": format_status(upper_display),
-                        "Lower Limit Result": format_status(lower_display)
+                        "Upper Limit Result": upper_display,
+                        "Lower Limit Result": lower_display
                     })
                     
         if all_rows:
@@ -653,13 +645,16 @@ elif summary_report_choice == "Satimo 1 Active Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring (White background for limits)
+            # Dynamic cell coloring via native Plotly property
             fill_color_cells = []
+            font_color_cells = []
             for col in df_report.columns:
                 if col in ["Upper Limit Result", "Lower Limit Result"]:
                     fill_color_cells.append(['#ffffff'] * len(df_report))
+                    font_color_cells.append(['#da0303' if 'Fail' in str(v) else '#04c136' if 'Pass' in str(v) else '#000000' for v in df_report[col]])
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
+                    font_color_cells.append(['#000000'] * len(df_report))
                     
             fig_table = go.Figure(data=[go.Table(
                 header=dict(
@@ -674,7 +669,7 @@ elif summary_report_choice == "Satimo 1 Active Report":
                     values=cell_values,
                     fill_color=fill_color_cells,
                     line=dict(color='black', width=1),
-                    font=dict(color='#000000', size=15),
+                    font=dict(color=font_color_cells, size=15),
                     align='center',
                     height=35
                 )
