@@ -24,16 +24,6 @@ def load_data(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-# Helper function for strictly formatting pass/fail font colors
-def get_status_color(val):
-    val_str = str(val).strip().upper()
-    if "FAIL" in val_str:
-        return '#da0303' # Red
-    elif "PASS" in val_str:
-        return '#04c136' # Green
-    else:
-        return '#000000' # Black
-
 # Dictionary to map antenna names to their frequency ranges for titles
 ANTENNA_RANGES = {
     # Dipoles
@@ -257,7 +247,7 @@ summary_report_choice = st.sidebar.selectbox(
 
 # Map Chamber selection to file prefix
 prefix_map = {
-    "Satimo 1 (24 Probe)": "Satimo1_",
+    "Satimo 1 (24 Probe)": "Satimo 1_",
     "Satimo 2 (64 Probe)": "Satimo2_",
     "Satimo 3 (24 Probe)": "Satimo3_",
     "Rohde & Schwarz (WPTC-M)": "RS_"
@@ -473,8 +463,8 @@ if summary_report_choice == "Satimo 1 Passive Report":
             font_color_cells = []
             for col in df_report.columns:
                 if col in ["Upper Limit Result", "Lower Limit Result"]:
-                    fill_color_cells.append(['#ffffff'] * len(df_report))
-                    font_color_cells.append([get_status_color(v) for v in df_report[col]])
+                    fill_color_cells.append(['#ffcccc' if 'FAIL' in str(v).upper() else '#ccffcc' if 'PASS' in str(v).upper() else '#ffffff' for v in df_report[col]])
+                    font_color_cells.append(['#000000'] * len(df_report))
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
                     font_color_cells.append(['#000000'] * len(df_report))
@@ -655,13 +645,13 @@ elif summary_report_choice == "Satimo 1 Active Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring via native Plotly property
+            # Dynamic cell coloring mapping
             fill_color_cells = []
             font_color_cells = []
             for col in df_report.columns:
                 if col in ["Upper Limit Result", "Lower Limit Result"]:
-                    fill_color_cells.append(['#ffffff'] * len(df_report))
-                    font_color_cells.append([get_status_color(v) for v in df_report[col]])
+                    fill_color_cells.append(['#ffcccc' if 'FAIL' in str(v).upper() else '#ccffcc' if 'PASS' in str(v).upper() else '#ffffff' for v in df_report[col]])
+                    font_color_cells.append(['#000000'] * len(df_report))
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
                     font_color_cells.append(['#000000'] * len(df_report))
