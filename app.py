@@ -538,10 +538,7 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
         # Helper function to dynamically check pass/fail from the raw active data files
         def evaluate_active_limits(chamber_prefix, category_name, item_id):
             if category_name == "Pixel Phone with Dipoles":
-                if chamber_prefix == "Satimo1_":
-                    file_to_load = "Satimo1_Pixel_Phone_S4_Dipoles_Quarterly.json"
-                else:
-                    file_to_load = f"{chamber_prefix}Pixel_Phone_S4_Dipoles_Quarterly.json"
+                file_to_load = f"{chamber_prefix}Pixel_Phone_S4_Dipoles_Quarterly.json"
             elif category_name == "LTE TRP":
                 file_to_load = f"{chamber_prefix}LTE_Reference_TRP_Quarterly.json"
             elif category_name == "LTE TIS":
@@ -568,54 +565,76 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                             all_measurements.extend(item.get("Measurements", []))
                         else:
                             all_measurements.append(item)
-            else: # Pixel Phone
+            else: # Pixel Phone with Dipoles - handles both nested device dicts and root lists/dicts
                 if isinstance(c_data, dict):
-                    for k, v in c_data.items():
-                        if isinstance(v, dict) and "Data" in v:
-                            all_measurements.extend(v.get("Data", []))
+                    if "Data" in c_data:
+                        all_measurements.extend(c_data["Data"])
+                    else:
+                        for k, v in c_data.items():
+                            if isinstance(v, dict) and "Data" in v:
+                                all_measurements.extend(v.get("Data", []))
                 elif isinstance(c_data, list):
                     all_measurements = c_data
 
             target_m = []
             for raw_m in all_measurements:
                 match = False
+                
+                # --- Advanced Matching Logic ---
                 if category_name in ["LTE TRP", "LTE TIS"]:
                     # Exact string matching for Bands/Channels (e.g. "B71 Low")
                     if str(raw_m.get("Band Chan", "")).strip().upper() == str(item_id).strip().upper():
                         match = True
-                else: # Pixel Phone uses Frequencies
-                    try:
-                        # Convert to float to handle formatting differences (e.g. 680.50 vs 680.5)
-                        raw_freq = float(raw_m.get("Frequency (MHz)", raw_m.get("Frequency (Mhz)", -9999)))
-                        item_freq = float(item_id)
-                        if abs(raw_freq - item_freq) < 0.001:
-                            match = True
-                    except (ValueError, TypeError):
-                        # Fallback to string if casting fails
+                else: 
+                    # Pixel Phone uses Frequencies - Robust numerical matching
+                    raw_freq_val = None
+                    for k, v in raw_m.items():
+                        if "freq" in k.lower():
+                            try:
+                                raw_freq_val = float(v)
+                                break
+                            except (ValueError, TypeError):
+                                pass
+                                
+                    if raw_freq_val is not None:
+                        try:
+                            item_freq = float(item_id)
+                            # Match if within 0.001 to handle 680.50 vs 680.5
+                            if abs(raw_freq_val - item_freq) < 0.001:
+                                match = True
+                        except (ValueError, TypeError):
+                            pass
+                    else:
+                        # Fallback to string if casting completely fails
                         if str(raw_m.get("Frequency (MHz)", "")).strip() == str(item_id).strip():
                             match = True
                 
+                # --- Advanced Limits Extraction ---
                 if match:
-                    if category_name == "LTE TRP":
-                        meas = raw_m.get("TRP (dBm)", float('nan'))
-                        up = raw_m.get("TRP Upper Limit (dBm)", float('nan'))
-                        low = raw_m.get("TRP Lower Limit (dBm)", float('nan'))
-                    elif category_name == "LTE TIS":
-                        meas = raw_m.get("TIS (dBm)", float('nan'))
-                        up = raw_m.get("TIS Upper Limit (dBm)", float('nan'))
-                        low = raw_m.get("TIS Lower Limit (dBm)", float('nan'))
-                    else: # Pixel Phone
-                        meas = raw_m.get("Measured TRP (dBm)", raw_m.get("Measured Total Radiated Power (dBm)", float('nan')))
-                        up = raw_m.get("Upper Limit", float('nan'))
-                        low = raw_m.get("Lower Limit", float('nan'))
+                    meas = float('nan')
+                    up = float('nan')
+                    low = float('nan')
                     
-                    try: meas = float(meas) if str(meas).strip() != "" else float('nan')
-                    except Exception: meas = float('nan')
-                    try: up = float(up) if str(up).strip() != "" else float('nan')
-                    except Exception: up = float('nan')
-                    try: low = float(low) if str(low).strip() != "" else float('nan')
-                    except Exception: low = float('nan')
-                    
+                    # Scan keys aggressively for substrings to avoid missing data due to spelling differences
+                    for k, v in raw_m.items():
+                        kl = str(k).lower()
+                        try:
+                            parsed_v = float(v) if str(v).strip() != "" else float('nan')
+                        except (ValueError, TypeError):
+                            parsed_v = float('nan')
+                            
+                        if "upper" in kl:
+                            up = parsed_v
+                        elif "lower" in kl:
+                            low = parsed_v
+                        elif category_name == "LTE TRP" and kl == "trp (dbm)":
+                            meas = parsed_v
+                        elif category_name == "LTE TIS" and kl == "tis (dbm)":
+                            meas = parsed_v
+                        elif category_name == "Pixel Phone with Dipoles":
+                            if "meas" in kl and ("trp" in kl or "power" in kl):
+                                meas = parsed_v
+                                
                     target_m.append({"meas": meas, "up": up, "low": low})
 
             if not target_m:
