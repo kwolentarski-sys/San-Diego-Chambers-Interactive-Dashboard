@@ -1170,6 +1170,12 @@ elif active_dataset_choice == "Pixel Phone S4 with Dipoles":
         df['Measured Total Radiated Power (dBm)'] = df['Measured Total Radiated Power (dBm)'].astype(float)
         df['Delta (Calc vs Meas) (dB)'] = df['Delta (Calc vs Meas) (dB)'].astype(float)
         
+        # Extract limit fields
+        if 'Upper Limit' in df.columns:
+            df['Upper Limit'] = pd.to_numeric(df['Upper Limit'], errors='coerce')
+        if 'Lower Limit' in df.columns:
+            df['Lower Limit'] = pd.to_numeric(df['Lower Limit'], errors='coerce')
+        
         st.markdown(f"<h3 style='color: #0000ff;'>Quarterly - Active Validation Measurements - Pixel Phone S4 with Dipoles</h3>", unsafe_allow_html=True)
         
         # Calculate Maximum Delta
@@ -1209,6 +1215,26 @@ elif active_dataset_choice == "Pixel Phone S4 with Dipoles":
             line=dict(color='#0000ff'),
             marker=dict(color='#0000ff', size=8)
         ))
+        
+        # Add Upper Limit Trace
+        if 'Upper Limit' in df.columns and df['Upper Limit'].notna().any():
+            fig.add_trace(go.Scatter(
+                x=df['LTE Band'],
+                y=df['Upper Limit'],
+                mode='lines',
+                name='<b>Upper Limit (dBm)</b>',
+                line=dict(dash='dot', color='#000000', width=2)
+            ))
+
+        # Add Lower Limit Trace
+        if 'Lower Limit' in df.columns and df['Lower Limit'].notna().any():
+            fig.add_trace(go.Scatter(
+                x=df['LTE Band'],
+                y=df['Lower Limit'],
+                mode='lines',
+                name='<b>Lower Limit (dBm)</b>',
+                line=dict(dash='dot', color='#000000', width=2)
+            ))
         
         fig.update_layout(
             title=dict(
