@@ -256,7 +256,11 @@ prefix = prefix_map.get(chamber_choice, "Satimo2_")
 
 # Map selection to the exact JSON files based on active/passive/chamber choice
 target_file = None
-if active_dataset_choice == "LTE TRP":
+if summary_report_choice == "Satimo 1 Passive Report":
+    target_file = 'Satimo1_Passive_Report.json'
+elif summary_report_choice == "Satimo 1 Active Report":
+    target_file = 'Satimo1_Active_Report.json'
+elif active_dataset_choice == "LTE TRP":
     target_file = f'{prefix}LTE_Reference_TRP_Quarterly.json'
 elif active_dataset_choice == "LTE TIS":
     target_file = f'{prefix}LTE_Reference_TIS_Quarterly.json'
@@ -290,13 +294,15 @@ elif dataset_choice == "Monthly Horns":
 elif dataset_choice == "Wideband Dipole Chamber Comparison":
     target_file = 'Chambers_Wideband_Dipole_Comparison.json' # Global file
 
-# Stop execution and prompt the user if both are "None"
+# Stop execution and prompt the user if no valid report or dataset is chosen
 if not target_file:
-    st.info("👈 Please select an Active or Passive Validation Type from the sidebar to view data.")
+    st.info("👈 Please select an Active Validation, Passive Validation, or Summary Report from the sidebar to view data.")
     st.stop()
 
 # Known files list for "under construction" fallback logic
 known_files = [
+    'Satimo1_Passive_Report.json',
+    'Satimo1_Active_Report.json',
     'Chambers_Wideband_Dipole_Comparison.json', 
     'Satimo1_Dipoles_Yearly.json', 
     'Satimo1_LTE_Reference_TRP_Quarterly.json', 
@@ -317,7 +323,7 @@ try:
     raw_data = load_data(target_file)
 except FileNotFoundError:
     # Display a disabled "Select Antenna" menu while waiting for passive data to load
-    if dataset_choice in ["Yearly Dipoles", "Quarterly Dipoles", "Monthly Horns", "Wideband Dipole Chamber Comparison", "aGPS L1 TIS"] and active_dataset_choice == "🔵 None":
+    if dataset_choice in ["Yearly Dipoles", "Quarterly Dipoles", "Monthly Horns", "Wideband Dipole Chamber Comparison", "aGPS L1 TIS"] and active_dataset_choice == "🔵 None" and summary_report_choice == "🔵 None":
         ph_antenna.selectbox("**Select Antenna:**", ["Awaiting Data..."], disabled=True)
 
     if chamber_choice != "Satimo 2 (64 Probe)" and target_file not in known_files:
@@ -331,7 +337,94 @@ except json.JSONDecodeError:
 
 # --- ROUTING LOGIC BASED ON DATASET TYPE ---
 
-if active_dataset_choice in ["aGPS L1 TIS", "aGPS L5 Pattern Only"]:
+if summary_report_choice == "Satimo 1 Passive Report":
+    # --- Logic for Passive Validation Summary Report Table ---
+    if isinstance(raw_data, dict):
+        report_title = raw_data.get("Report_Name", "Passive Validation Summary Report")
+        st.markdown(f"<h3 style='color: #0000ff;'>Satimo 1 - {report_title}</h3>", unsafe_allow_html=True)
+        
+        all_rows = []
+        for category in ["Monthly Horns", "Quarterly Dipoles", "Yearly Dipoles"]:
+            if category in raw_data:
+                for item in raw_data[category]:
+                    antenna = item.get("Antenna", "Unknown")
+                    date = item.get("Date", "N/A")
+                    upper = str(item.get("Upper Limit", "")).strip()
+                    lower = str(item.get("Lower Limit", "")).strip()
+                    
+                    # Compute status based on populated JSON strings
+                    if upper == "" and lower == "":
+                        status = "⚠️ Awaiting Data"
+                        upper_display = "N/A"
+                        lower_display = "N/A"
+                    elif "fail" in upper.lower() or "fail" in lower.lower():
+                        status = "❌ FAIL"
+                        upper_display = upper if upper else "PASS"
+                        lower_display = lower if lower else "PASS"
+                    else:
+                        status = "✅ PASS"
+                        upper_display = upper if upper else "PASS"
+                        lower_display = lower if lower else "PASS"
+                        
+                    all_rows.append({
+                        "Test Category": category,
+                        "Antenna": antenna,
+                        "Date": date,
+                        "Upper Limit Result": upper_display,
+                        "Lower Limit Result": lower_display,
+                        "Overall Status": status
+                    })
+                    
+        if all_rows:
+            df_report = pd.DataFrame(all_rows)
+            
+            header_values = [f"<b>{col}</b>" for col in df_report.columns]
+            cell_values = [df_report[col] for col in df_report.columns]
+            
+            # Dynamic cell coloring for Pass/Fail/Pending
+            fill_color_cells = []
+            for col in df_report.columns:
+                if col == "Overall Status" or col == "Upper Limit Result" or col == "Lower Limit Result":
+                    fill_color_cells.append(['#ffcccc' if 'FAIL' in str(v).upper() else '#ccffcc' if 'PASS' in str(v).upper() else '#fff2cc' for v in df_report[col]])
+                else:
+                    fill_color_cells.append(['#e9f1ff'] * len(df_report))
+                    
+            fig_table = go.Figure(data=[go.Table(
+                header=dict(
+                    values=header_values,
+                    fill_color='#d9d9d9',
+                    line=dict(color='black', width=1),
+                    font=dict(color='#000000', size=16),
+                    align='center',
+                    height=40
+                ),
+                cells=dict(
+                    values=cell_values,
+                    fill_color=fill_color_cells,
+                    line=dict(color='black', width=1),
+                    font=dict(color='black', size=15),
+                    align='center',
+                    height=35
+                )
+            )])
+            
+            fig_table.update_layout(
+                margin=dict(l=20, r=20, t=20, b=20),
+                height=800
+            )
+            
+            st.plotly_chart(fig_table, use_container_width=True)
+        else:
+            st.warning("No data found in the summary report.")
+    else:
+        st.error("Data structure error: Summary report must be a JSON dictionary.")
+
+elif summary_report_choice == "Satimo 1 Active Report":
+    # --- Placeholder for Active Summary Report ---
+    st.markdown("<h3 style='color: #0000ff;'>Satimo 1 - Active Validation Summary Report</h3>", unsafe_allow_html=True)
+    st.info("🏗️ The Active Validation Summary Report is currently under construction.")
+
+elif active_dataset_choice in ["aGPS L1 TIS", "aGPS L5 Pattern Only"]:
     # --- Logic for aGPS L1 TIS & aGPS L5 Pattern Only Table Data ---
     
     if isinstance(raw_data, dict):
