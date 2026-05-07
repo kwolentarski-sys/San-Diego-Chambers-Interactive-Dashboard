@@ -252,10 +252,10 @@ elif test_desc_choice == "aGPS L5 Pattern Only":
 st.sidebar.markdown("---") # Visual divider
 summary_report_choice = st.sidebar.selectbox(
     "**Select Summary Report:**",
-    ("🔵 None", "Satimo 1 Passive Report", "Satimo 1 Active Report")
+    ("🔵 None", "Satimo 1 Passive Report", "Satimo 2 Passive Report", "Satimo 1 Active Report")
 )
 
-# Map Chamber selection to file prefix
+# Map Chamber selection to file prefix for generic queries
 prefix_map = {
     "Satimo 1 (24 Probe)": "Satimo1_",
     "Satimo 2 (64 Probe)": "Satimo2_",
@@ -268,6 +268,8 @@ prefix = prefix_map.get(chamber_choice, "Satimo2_")
 target_file = None
 if summary_report_choice == "Satimo 1 Passive Report":
     target_file = 'Satimo1_Passive_Report.json'
+elif summary_report_choice == "Satimo 2 Passive Report":
+    target_file = 'Satimo2_Passive_Report.json'
 elif summary_report_choice == "Satimo 1 Active Report":
     target_file = 'Satimo1_Active_Report.json'
 elif active_dataset_choice == "LTE TRP":
@@ -312,9 +314,13 @@ if not target_file:
 # Known files list for "under construction" fallback logic
 known_files = [
     'Satimo1_Passive_Report.json',
+    'Satimo2_Passive_Report.json',
     'Satimo1_Active_Report.json',
     'Chambers_Wideband_Dipole_Comparison.json', 
     'Satimo1_Dipoles_Yearly.json', 
+    'Satimo2_Dipoles_Yearly.json', 
+    'Satimo2_Dipoles_Quarterly.json',
+    'Satimo2_Horns_Monthly.json',
     'Satimo1_LTE_Reference_TRP_Quarterly.json', 
     'Satimo1_LTE_Reference_TIS_Quarterly.json',
     'Satimo1_Pixel_Phone_S4_Dipoles_Quarterly.json',
@@ -347,11 +353,15 @@ except json.JSONDecodeError:
 
 # --- ROUTING LOGIC BASED ON DATASET TYPE ---
 
-if summary_report_choice == "Satimo 1 Passive Report":
+if summary_report_choice in ["Satimo 1 Passive Report", "Satimo 2 Passive Report"]:
+    # Determine which chamber prefix to use based on the menu choice
+    report_chamber_prefix = "Satimo1_" if "Satimo 1" in summary_report_choice else "Satimo2_"
+    display_chamber_title = "Satimo 1" if "Satimo 1" in summary_report_choice else "Satimo 2"
+    
     # --- Logic for Passive Validation Summary Report Table ---
     if isinstance(raw_data, dict):
         report_title = raw_data.get("Report_Name", "Passive Validation Summary Report")
-        st.markdown(f"<h3 style='color: #0000ff;'>Satimo 1 - {report_title}</h3>", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='color: #0000ff;'>{display_chamber_title} - {report_title}</h3>", unsafe_allow_html=True)
         
         # Helper function to dynamically check pass/fail from the raw passive data files
         def evaluate_antenna_limits(chamber_prefix, category_name, antenna_name):
@@ -444,8 +454,8 @@ if summary_report_choice == "Satimo 1 Passive Report":
                     antenna = item.get("Antenna", "Unknown")
                     date = item.get("Date", "N/A")
                     
-                    # Compute status dynamically based on the actual raw data graphs
-                    dyn_up, dyn_low = evaluate_antenna_limits(prefix, category, antenna)
+                    # Compute status dynamically based on the actual raw data graphs using proper chamber prefix
+                    dyn_up, dyn_low = evaluate_antenna_limits(report_chamber_prefix, category, antenna)
                     
                     # Fallback to manual entry if dynamic check is N/A
                     json_up = str(item.get("Upper Limit", "")).strip().capitalize()
@@ -655,7 +665,7 @@ elif summary_report_choice == "Satimo 1 Active Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring via native Plotly property
+            # Dynamic cell coloring mapping
             fill_color_cells = []
             font_color_cells = []
             for col in df_report.columns:
