@@ -1,0 +1,6083 @@
+{
+  "Horn SH400": {
+    "Reference": "Reference Data - NIST",
+    "Date": "3/10/26",
+    "Data": [
+      {
+        "Frequency (MHz)": 600.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 610.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -0.52
+      },
+      {
+        "Frequency (MHz)": 620.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 630.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 640.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 650.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 660.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 670.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 680.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.13,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 690.0,
+        "Efficiency (dB)": -0.39,
+        "Efficiency (dB)_Date": -0.53,
+        "Efficiency (dB)_Upper Limit": 0.04,
+        "Efficiency (dB)_Lower Limit": -0.96
+      },
+      {
+        "Frequency (MHz)": 700.0,
+        "Efficiency (dB)": -0.43,
+        "Efficiency (dB)_Date": -0.59,
+        "Efficiency (dB)_Upper Limit": -0.02,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 710.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": -0.09,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 720.0,
+        "Efficiency (dB)": -0.5,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": -0.11,
+        "Efficiency (dB)_Lower Limit": -1.11
+      },
+      {
+        "Frequency (MHz)": 730.0,
+        "Efficiency (dB)": -0.52,
+        "Efficiency (dB)_Date": -0.63,
+        "Efficiency (dB)_Upper Limit": -0.09,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 740.0,
+        "Efficiency (dB)": -0.53,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": -0.07,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 750.0,
+        "Efficiency (dB)": -0.54,
+        "Efficiency (dB)_Date": -0.59,
+        "Efficiency (dB)_Upper Limit": -0.04,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 760.0,
+        "Efficiency (dB)": -0.54,
+        "Efficiency (dB)_Date": -0.58,
+        "Efficiency (dB)_Upper Limit": -0.04,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 770.0,
+        "Efficiency (dB)": -0.54,
+        "Efficiency (dB)_Date": -0.59,
+        "Efficiency (dB)_Upper Limit": -0.04,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 780.0,
+        "Efficiency (dB)": -0.53,
+        "Efficiency (dB)_Date": -0.56,
+        "Efficiency (dB)_Upper Limit": 0.01,
+        "Efficiency (dB)_Lower Limit": -1.0
+      },
+      {
+        "Frequency (MHz)": 790.0,
+        "Efficiency (dB)": -0.51,
+        "Efficiency (dB)_Date": -0.56,
+        "Efficiency (dB)_Upper Limit": 0.01,
+        "Efficiency (dB)_Lower Limit": -0.99
+      },
+      {
+        "Frequency (MHz)": 800.0,
+        "Efficiency (dB)": -0.49,
+        "Efficiency (dB)_Date": -0.54,
+        "Efficiency (dB)_Upper Limit": 0.05,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 810.0,
+        "Efficiency (dB)": -0.45,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.14,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 820.0,
+        "Efficiency (dB)": -0.41,
+        "Efficiency (dB)_Date": -0.46,
+        "Efficiency (dB)_Upper Limit": 0.14,
+        "Efficiency (dB)_Lower Limit": -0.86
+      },
+      {
+        "Frequency (MHz)": 830.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.17,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 840.0,
+        "Efficiency (dB)": -0.33,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.17,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 850.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 860.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 870.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 880.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 890.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.09,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 900.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.47
+      },
+      {
+        "Frequency (MHz)": 910.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -0.52
+      },
+      {
+        "Frequency (MHz)": 920.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 930.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 940.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 950.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.5,
+        "Efficiency (dB)_Upper Limit": 0.09,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 960.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.03,
+        "Efficiency (dB)_Lower Limit": -0.97
+      },
+      {
+        "Frequency (MHz)": 970.0,
+        "Efficiency (dB)": -0.44,
+        "Efficiency (dB)_Date": -0.59,
+        "Efficiency (dB)_Upper Limit": -0.02,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 980.0,
+        "Efficiency (dB)": -0.46,
+        "Efficiency (dB)_Date": -0.61,
+        "Efficiency (dB)_Upper Limit": -0.04,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 990.0,
+        "Efficiency (dB)": -0.46,
+        "Efficiency (dB)_Date": -0.62,
+        "Efficiency (dB)_Upper Limit": -0.07,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 1000.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.04,
+        "Efficiency (dB)_Lower Limit": -0.97
+      },
+      {
+        "Frequency (MHz)": 1010.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.07,
+        "Efficiency (dB)_Lower Limit": -0.94
+      },
+      {
+        "Frequency (MHz)": 1020.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 1030.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.12,
+        "Efficiency (dB)_Lower Limit": -0.88
+      },
+      {
+        "Frequency (MHz)": 1040.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 1050.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.13,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 1060.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -0.84
+      },
+      {
+        "Frequency (MHz)": 1070.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.06,
+        "Efficiency (dB)_Lower Limit": -0.94
+      },
+      {
+        "Frequency (MHz)": 1080.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.12,
+        "Efficiency (dB)_Lower Limit": -0.88
+      },
+      {
+        "Frequency (MHz)": 1090.0,
+        "Efficiency (dB)": -0.45,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.08,
+        "Efficiency (dB)_Lower Limit": -0.92
+      },
+      {
+        "Frequency (MHz)": 1100.0,
+        "Efficiency (dB)": -0.43,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 1110.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.27,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 1120.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 1130.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 1140.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -0.84
+      },
+      {
+        "Frequency (MHz)": 1150.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -0.84
+      },
+      {
+        "Frequency (MHz)": 1160.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 1170.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 1180.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 1190.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 1200.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 1210.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 1220.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 1230.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 1240.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 1250.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 1260.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1270.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 1280.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.73
+      },
+      {
+        "Frequency (MHz)": 1290.0,
+        "Efficiency (dB)": -0.32,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -0.78
+      },
+      {
+        "Frequency (MHz)": 1300.0,
+        "Efficiency (dB)": -0.36,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 1310.0,
+        "Efficiency (dB)": -0.39,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.2,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 1320.0,
+        "Efficiency (dB)": -0.42,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 1330.0,
+        "Efficiency (dB)": -0.44,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.22,
+        "Efficiency (dB)_Lower Limit": -0.78
+      },
+      {
+        "Frequency (MHz)": 1340.0,
+        "Efficiency (dB)": -0.45,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 1350.0,
+        "Efficiency (dB)": -0.46,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.2,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 1360.0,
+        "Efficiency (dB)": -0.44,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 1370.0,
+        "Efficiency (dB)": -0.43,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 1380.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 1390.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 1400.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 1410.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 1420.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 1430.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 1440.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 1450.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 1460.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 1470.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 1480.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 1490.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 1500.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 1510.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 1520.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 1530.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 1540.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1550.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -0.53
+      },
+      {
+        "Frequency (MHz)": 1560.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 1570.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 1580.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 1590.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 1600.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 1610.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -0.52
+      },
+      {
+        "Frequency (MHz)": 1620.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 1630.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1640.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -0.53
+      },
+      {
+        "Frequency (MHz)": 1650.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 1660.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 1670.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 1680.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 1690.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 1700.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 1710.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 1720.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 1730.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 1740.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 1750.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 1760.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 1770.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 1780.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1790.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 1800.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 1810.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 1820.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 1830.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 1840.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1850.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1860.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 1870.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 1880.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1890.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 1900.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 1910.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 1920.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 1930.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 1940.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 1950.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 1960.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 1970.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 1980.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 1990.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2000.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2010.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 2020.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 2030.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 2040.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 2050.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 2060.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 2070.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 2080.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 2090.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2100.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2110.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2120.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 2130.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 2140.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2150.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 2160.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2170.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2180.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2190.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2200.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2210.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2220.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 2230.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2240.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2250.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2260.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2270.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 2280.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2290.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2300.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 2310.0,
+        "Efficiency (dB)": -0.09,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 2320.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2330.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2340.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2350.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 2360.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 2370.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2380.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 2390.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2400.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.73
+      },
+      {
+        "Frequency (MHz)": 2410.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 2420.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.73
+      },
+      {
+        "Frequency (MHz)": 2430.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 2440.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 2450.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 2460.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 2470.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2480.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2490.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 2500.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 2510.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2520.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2530.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2540.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2550.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2560.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2570.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2580.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2590.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 2600.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2610.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 2620.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2630.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2640.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2650.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2660.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2670.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2680.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2690.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 2700.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2710.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2720.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2730.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2740.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 2750.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2760.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 2770.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 2780.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2790.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 2800.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2810.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 2820.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 2830.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2840.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 2850.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 2860.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 2870.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 2880.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 2890.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 2900.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2910.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 2920.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2930.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 2940.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 2950.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2960.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 2970.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 2980.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 2990.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.09,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 3000.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 3010.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3020.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3030.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3040.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3050.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3060.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3070.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3080.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 3090.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 3100.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 3110.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 3120.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3130.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3140.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3150.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3160.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3170.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3180.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 3190.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3200.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3210.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 3220.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 3230.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 3240.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3250.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3260.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3270.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3280.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3290.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3300.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3310.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 3320.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3330.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 3340.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3350.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 3360.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3370.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 3380.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 3390.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 3400.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 3410.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 3420.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 3430.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.27,
+        "Efficiency (dB)_Lower Limit": -0.73
+      },
+      {
+        "Frequency (MHz)": 3440.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 3450.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 3460.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 3470.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3480.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3490.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3500.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3510.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3520.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 3530.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 3540.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3550.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.09,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 3560.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 3570.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 3580.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3590.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3600.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3610.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3620.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3630.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3640.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 3650.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 3660.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3670.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3680.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3690.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3700.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3710.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3720.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3730.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 3740.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 3750.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 3760.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 3770.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 3780.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3790.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3800.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3810.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 3820.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3830.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3840.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3850.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 3860.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3870.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3880.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3890.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 3900.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3910.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3920.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 3930.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 3940.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 3950.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 3960.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 3970.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3980.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 3990.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 4000.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 4010.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4020.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4030.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 4040.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4050.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 4060.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.05,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 4070.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 4080.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 4090.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4100.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4110.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4120.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4130.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 4140.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4150.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4160.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4170.0,
+        "Efficiency (dB)": -0.1,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4180.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 4190.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4200.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4210.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 4220.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.01,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 4230.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.01,
+        "Efficiency (dB)_Upper Limit": 0.51,
+        "Efficiency (dB)_Lower Limit": -0.49
+      },
+      {
+        "Frequency (MHz)": 4240.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.02,
+        "Efficiency (dB)_Upper Limit": 0.51,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 4250.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -0.52
+      },
+      {
+        "Frequency (MHz)": 4260.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": -0.02,
+        "Efficiency (dB)_Upper Limit": 0.51,
+        "Efficiency (dB)_Lower Limit": -0.49
+      },
+      {
+        "Frequency (MHz)": 4270.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": 0.01,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.47
+      },
+      {
+        "Frequency (MHz)": 4280.0,
+        "Efficiency (dB)": -0.11,
+        "Efficiency (dB)_Date": 0.04,
+        "Efficiency (dB)_Upper Limit": 0.56,
+        "Efficiency (dB)_Lower Limit": -0.44
+      },
+      {
+        "Frequency (MHz)": 4290.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": 0.1,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.43
+      },
+      {
+        "Frequency (MHz)": 4300.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": 0.01,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 4310.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": 0.02,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 4320.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.05,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 4330.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 4340.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.05,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 4350.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.04,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 4360.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.05,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 4370.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 4380.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 4390.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4400.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 4410.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 4420.0,
+        "Efficiency (dB)": -0.12,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 4430.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4440.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 4450.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 4460.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 4470.0,
+        "Efficiency (dB)": -0.13,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 4480.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 4490.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 4500.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.09,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 4510.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4520.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 4530.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4540.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 4550.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.01,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.48
+      },
+      {
+        "Frequency (MHz)": 4560.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.04,
+        "Efficiency (dB)_Upper Limit": 0.56,
+        "Efficiency (dB)_Lower Limit": -0.44
+      },
+      {
+        "Frequency (MHz)": 4570.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.02,
+        "Efficiency (dB)_Upper Limit": 0.55,
+        "Efficiency (dB)_Lower Limit": -0.45
+      },
+      {
+        "Frequency (MHz)": 4580.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.03,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.44
+      },
+      {
+        "Frequency (MHz)": 4590.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.09,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.4
+      },
+      {
+        "Frequency (MHz)": 4600.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.04,
+        "Efficiency (dB)_Upper Limit": 0.56,
+        "Efficiency (dB)_Lower Limit": -0.44
+      },
+      {
+        "Frequency (MHz)": 4610.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.14,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.37
+      },
+      {
+        "Frequency (MHz)": 4620.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.1,
+        "Efficiency (dB)_Upper Limit": 0.6,
+        "Efficiency (dB)_Lower Limit": -0.41
+      },
+      {
+        "Frequency (MHz)": 4630.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.11,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.39
+      },
+      {
+        "Frequency (MHz)": 4640.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.12,
+        "Efficiency (dB)_Upper Limit": 0.62,
+        "Efficiency (dB)_Lower Limit": -0.39
+      },
+      {
+        "Frequency (MHz)": 4650.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.1,
+        "Efficiency (dB)_Upper Limit": 0.6,
+        "Efficiency (dB)_Lower Limit": -0.4
+      },
+      {
+        "Frequency (MHz)": 4660.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": 0.05,
+        "Efficiency (dB)_Upper Limit": 0.55,
+        "Efficiency (dB)_Lower Limit": -0.45
+      },
+      {
+        "Frequency (MHz)": 4670.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": 0.0,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.49
+      },
+      {
+        "Frequency (MHz)": 4680.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 4690.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 4700.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 4710.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 4720.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 4730.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 4740.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 4750.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 4760.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 4770.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 4780.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 4790.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 4800.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 4810.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 4820.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4830.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -0.52
+      },
+      {
+        "Frequency (MHz)": 4840.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 4850.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4860.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 4870.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 4880.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.02,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 4890.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": 0.0,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 4900.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.02,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -0.51
+      },
+      {
+        "Frequency (MHz)": 4910.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": 0.03,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.47
+      },
+      {
+        "Frequency (MHz)": 4920.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": 0.02,
+        "Efficiency (dB)_Upper Limit": 0.51,
+        "Efficiency (dB)_Lower Limit": -0.49
+      },
+      {
+        "Frequency (MHz)": 4930.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": 0.04,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.48
+      },
+      {
+        "Frequency (MHz)": 4940.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": 0.03,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -0.5
+      },
+      {
+        "Frequency (MHz)": 4950.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.01,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 4960.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.03,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 4970.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 4980.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.63
+      },
+      {
+        "Frequency (MHz)": 4990.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 5000.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 5010.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 5020.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 5030.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 5040.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 5050.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 5060.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.17,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 5070.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5080.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.2,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 5090.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5100.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 5110.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 5120.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 5130.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 5140.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.65
+      },
+      {
+        "Frequency (MHz)": 5150.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 5160.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 5170.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 5180.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.04,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 5190.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.03,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -0.55
+      },
+      {
+        "Frequency (MHz)": 5200.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.02,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 5210.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": 0.03,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -0.52
+      },
+      {
+        "Frequency (MHz)": 5220.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 5230.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 5240.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.07,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 5250.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 5260.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 5270.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 5280.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 5290.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 5300.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.2,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 5310.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 5320.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 5330.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 5340.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5350.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -0.85
+      },
+      {
+        "Frequency (MHz)": 5360.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5370.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5380.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 5390.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 5400.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 5410.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 5420.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.73
+      },
+      {
+        "Frequency (MHz)": 5430.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 5440.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 5450.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -0.59
+      },
+      {
+        "Frequency (MHz)": 5460.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 5470.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -0.58
+      },
+      {
+        "Frequency (MHz)": 5480.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.05,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 5490.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.62
+      },
+      {
+        "Frequency (MHz)": 5500.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 5510.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.11,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 5520.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.14,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 5530.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.03,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -0.54
+      },
+      {
+        "Frequency (MHz)": 5540.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": 0.02,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -0.52
+      },
+      {
+        "Frequency (MHz)": 5550.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.06,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -0.57
+      },
+      {
+        "Frequency (MHz)": 5560.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.03,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -0.56
+      },
+      {
+        "Frequency (MHz)": 5570.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.1,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.61
+      },
+      {
+        "Frequency (MHz)": 5580.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 5590.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -0.64
+      },
+      {
+        "Frequency (MHz)": 5600.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 5610.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 5620.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -0.71
+      },
+      {
+        "Frequency (MHz)": 5630.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 5640.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 5650.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 5660.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.22,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 5670.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5680.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.2,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5690.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 5700.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.17,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 5710.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.38,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -0.84
+      },
+      {
+        "Frequency (MHz)": 5720.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 5730.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.17,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 5740.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.17,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 5750.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.22,
+        "Efficiency (dB)_Lower Limit": -0.78
+      },
+      {
+        "Frequency (MHz)": 5760.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 5770.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 5780.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -0.73
+      },
+      {
+        "Frequency (MHz)": 5790.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 5800.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 5810.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 5820.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -0.7
+      },
+      {
+        "Frequency (MHz)": 5830.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 5840.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -0.67
+      },
+      {
+        "Frequency (MHz)": 5850.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -0.66
+      },
+      {
+        "Frequency (MHz)": 5860.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.12,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -0.6
+      },
+      {
+        "Frequency (MHz)": 5870.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -0.68
+      },
+      {
+        "Frequency (MHz)": 5880.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -0.69
+      },
+      {
+        "Frequency (MHz)": 5890.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 5900.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 5910.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.13,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 5920.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.07,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 5930.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.5,
+        "Efficiency (dB)_Upper Limit": 0.04,
+        "Efficiency (dB)_Lower Limit": -0.96
+      },
+      {
+        "Frequency (MHz)": 5940.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.0,
+        "Efficiency (dB)_Lower Limit": -1.0
+      },
+      {
+        "Frequency (MHz)": 5950.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.65,
+        "Efficiency (dB)_Upper Limit": -0.11,
+        "Efficiency (dB)_Lower Limit": -1.11
+      },
+      {
+        "Frequency (MHz)": 5960.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.74,
+        "Efficiency (dB)_Upper Limit": -0.2,
+        "Efficiency (dB)_Lower Limit": -1.2
+      },
+      {
+        "Frequency (MHz)": 5970.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.84,
+        "Efficiency (dB)_Upper Limit": -0.28,
+        "Efficiency (dB)_Lower Limit": -1.28
+      },
+      {
+        "Frequency (MHz)": 5980.0,
+        "Efficiency (dB)": -0.32,
+        "Efficiency (dB)_Date": -0.83,
+        "Efficiency (dB)_Upper Limit": -0.31,
+        "Efficiency (dB)_Lower Limit": -1.31
+      },
+      {
+        "Frequency (MHz)": 5990.0,
+        "Efficiency (dB)": -0.33,
+        "Efficiency (dB)_Date": -0.87,
+        "Efficiency (dB)_Upper Limit": -0.31,
+        "Efficiency (dB)_Lower Limit": -1.31
+      },
+      {
+        "Frequency (MHz)": 6000.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.98,
+        "Efficiency (dB)_Upper Limit": -0.4,
+        "Efficiency (dB)_Lower Limit": -1.4
+      }
+    ]
+  },
+  "Horn SH2000": {
+    "Reference": "Reference Data - NIST",
+    "Date": "3/10/26",
+    "Data": [
+      {
+        "Frequency (MHz)": 2000.0,
+        "Efficiency (dB)": -0.9,
+        "Efficiency (dB)_Date": -0.82,
+        "Efficiency (dB)_Upper Limit": 0.06,
+        "Efficiency (dB)_Lower Limit": -1.44
+      },
+      {
+        "Frequency (MHz)": 2020.0,
+        "Efficiency (dB)": -0.74,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -1.29
+      },
+      {
+        "Frequency (MHz)": 2040.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -1.22
+      },
+      {
+        "Frequency (MHz)": 2060.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -1.24
+      },
+      {
+        "Frequency (MHz)": 2080.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.16
+      },
+      {
+        "Frequency (MHz)": 2100.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.54,
+        "Efficiency (dB)_Lower Limit": -0.96
+      },
+      {
+        "Frequency (MHz)": 2120.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.15,
+        "Efficiency (dB)_Upper Limit": 0.64,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 2140.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.9
+      },
+      {
+        "Frequency (MHz)": 2160.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.18,
+        "Efficiency (dB)_Upper Limit": 0.64,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 2180.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.08,
+        "Efficiency (dB)_Upper Limit": 0.73,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 2200.0,
+        "Efficiency (dB)": -0.14,
+        "Efficiency (dB)_Date": -0.13,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 2220.0,
+        "Efficiency (dB)": -0.15,
+        "Efficiency (dB)_Date": -0.19,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 2240.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 2260.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.58,
+        "Efficiency (dB)_Lower Limit": -0.92
+      },
+      {
+        "Frequency (MHz)": 2280.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.46,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.03
+      },
+      {
+        "Frequency (MHz)": 2300.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -1.1
+      },
+      {
+        "Frequency (MHz)": 2320.0,
+        "Efficiency (dB)": -0.31,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 2340.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 2360.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -1.21
+      },
+      {
+        "Frequency (MHz)": 2380.0,
+        "Efficiency (dB)": -0.42,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": 0.15,
+        "Efficiency (dB)_Lower Limit": -1.36
+      },
+      {
+        "Frequency (MHz)": 2400.0,
+        "Efficiency (dB)": -0.46,
+        "Efficiency (dB)_Date": -0.56,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -1.27
+      },
+      {
+        "Frequency (MHz)": 2420.0,
+        "Efficiency (dB)": -0.49,
+        "Efficiency (dB)_Date": -0.53,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -1.32
+      },
+      {
+        "Frequency (MHz)": 2440.0,
+        "Efficiency (dB)": -0.53,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.13,
+        "Efficiency (dB)_Lower Limit": -1.37
+      },
+      {
+        "Frequency (MHz)": 2460.0,
+        "Efficiency (dB)": -0.57,
+        "Efficiency (dB)_Date": -0.64,
+        "Efficiency (dB)_Upper Limit": 0.06,
+        "Efficiency (dB)_Lower Limit": -1.44
+      },
+      {
+        "Frequency (MHz)": 2480.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.65,
+        "Efficiency (dB)_Upper Limit": 0.12,
+        "Efficiency (dB)_Lower Limit": -1.38
+      },
+      {
+        "Frequency (MHz)": 2500.0,
+        "Efficiency (dB)": -0.63,
+        "Efficiency (dB)_Date": -0.83,
+        "Efficiency (dB)_Upper Limit": 0.04,
+        "Efficiency (dB)_Lower Limit": -1.46
+      },
+      {
+        "Frequency (MHz)": 2520.0,
+        "Efficiency (dB)": -0.65,
+        "Efficiency (dB)_Date": -0.84,
+        "Efficiency (dB)_Upper Limit": 0.1,
+        "Efficiency (dB)_Lower Limit": -1.41
+      },
+      {
+        "Frequency (MHz)": 2540.0,
+        "Efficiency (dB)": -0.68,
+        "Efficiency (dB)_Date": -0.84,
+        "Efficiency (dB)_Upper Limit": 0.11,
+        "Efficiency (dB)_Lower Limit": -1.39
+      },
+      {
+        "Frequency (MHz)": 2560.0,
+        "Efficiency (dB)": -0.71,
+        "Efficiency (dB)_Date": -0.84,
+        "Efficiency (dB)_Upper Limit": 0.13,
+        "Efficiency (dB)_Lower Limit": -1.37
+      },
+      {
+        "Frequency (MHz)": 2580.0,
+        "Efficiency (dB)": -0.73,
+        "Efficiency (dB)_Date": -0.76,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -1.32
+      },
+      {
+        "Frequency (MHz)": 2600.0,
+        "Efficiency (dB)": -0.74,
+        "Efficiency (dB)_Date": -0.71,
+        "Efficiency (dB)_Upper Limit": 0.13,
+        "Efficiency (dB)_Lower Limit": -1.38
+      },
+      {
+        "Frequency (MHz)": 2620.0,
+        "Efficiency (dB)": -0.75,
+        "Efficiency (dB)_Date": -0.65,
+        "Efficiency (dB)_Upper Limit": 0.12,
+        "Efficiency (dB)_Lower Limit": -1.38
+      },
+      {
+        "Frequency (MHz)": 2640.0,
+        "Efficiency (dB)": -0.77,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -1.35
+      },
+      {
+        "Frequency (MHz)": 2660.0,
+        "Efficiency (dB)": -0.78,
+        "Efficiency (dB)_Date": -0.5,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -1.32
+      },
+      {
+        "Frequency (MHz)": 2680.0,
+        "Efficiency (dB)": -0.79,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.14,
+        "Efficiency (dB)_Lower Limit": -1.37
+      },
+      {
+        "Frequency (MHz)": 2700.0,
+        "Efficiency (dB)": -0.8,
+        "Efficiency (dB)_Date": -0.65,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -1.32
+      },
+      {
+        "Frequency (MHz)": 2720.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.65,
+        "Efficiency (dB)_Upper Limit": 0.22,
+        "Efficiency (dB)_Lower Limit": -1.28
+      },
+      {
+        "Frequency (MHz)": 2740.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.61,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -1.22
+      },
+      {
+        "Frequency (MHz)": 2760.0,
+        "Efficiency (dB)": -0.82,
+        "Efficiency (dB)_Date": -0.75,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -1.26
+      },
+      {
+        "Frequency (MHz)": 2780.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.7,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -1.22
+      },
+      {
+        "Frequency (MHz)": 2800.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.63,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.17
+      },
+      {
+        "Frequency (MHz)": 2820.0,
+        "Efficiency (dB)": -0.8,
+        "Efficiency (dB)_Date": -0.63,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -1.21
+      },
+      {
+        "Frequency (MHz)": 2840.0,
+        "Efficiency (dB)": -0.8,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -1.21
+      },
+      {
+        "Frequency (MHz)": 2860.0,
+        "Efficiency (dB)": -0.8,
+        "Efficiency (dB)_Date": -0.47,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -1.2
+      },
+      {
+        "Frequency (MHz)": 2880.0,
+        "Efficiency (dB)": -0.79,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -1.11
+      },
+      {
+        "Frequency (MHz)": 2900.0,
+        "Efficiency (dB)": -0.79,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -1.16
+      },
+      {
+        "Frequency (MHz)": 2920.0,
+        "Efficiency (dB)": -0.79,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -1.19
+      },
+      {
+        "Frequency (MHz)": 2940.0,
+        "Efficiency (dB)": -0.8,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -1.27
+      },
+      {
+        "Frequency (MHz)": 2960.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -1.2
+      },
+      {
+        "Frequency (MHz)": 2980.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.61,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.16
+      },
+      {
+        "Frequency (MHz)": 3000.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.88,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -1.31
+      },
+      {
+        "Frequency (MHz)": 3020.0,
+        "Efficiency (dB)": -0.82,
+        "Efficiency (dB)_Date": -0.81,
+        "Efficiency (dB)_Upper Limit": 0.27,
+        "Efficiency (dB)_Lower Limit": -1.23
+      },
+      {
+        "Frequency (MHz)": 3040.0,
+        "Efficiency (dB)": -0.82,
+        "Efficiency (dB)_Date": -0.64,
+        "Efficiency (dB)_Upper Limit": 0.31,
+        "Efficiency (dB)_Lower Limit": -1.19
+      },
+      {
+        "Frequency (MHz)": 3060.0,
+        "Efficiency (dB)": -0.82,
+        "Efficiency (dB)_Date": -0.53,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.17
+      },
+      {
+        "Frequency (MHz)": 3080.0,
+        "Efficiency (dB)": -0.82,
+        "Efficiency (dB)_Date": -0.54,
+        "Efficiency (dB)_Upper Limit": 0.27,
+        "Efficiency (dB)_Lower Limit": -1.23
+      },
+      {
+        "Frequency (MHz)": 3100.0,
+        "Efficiency (dB)": -0.81,
+        "Efficiency (dB)_Date": -0.47,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -1.22
+      },
+      {
+        "Frequency (MHz)": 3120.0,
+        "Efficiency (dB)": -0.79,
+        "Efficiency (dB)_Date": -0.38,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -1.11
+      },
+      {
+        "Frequency (MHz)": 3140.0,
+        "Efficiency (dB)": -0.78,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.42,
+        "Efficiency (dB)_Lower Limit": -1.08
+      },
+      {
+        "Frequency (MHz)": 3160.0,
+        "Efficiency (dB)": -0.76,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -1.15
+      },
+      {
+        "Frequency (MHz)": 3180.0,
+        "Efficiency (dB)": -0.74,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.17
+      },
+      {
+        "Frequency (MHz)": 3200.0,
+        "Efficiency (dB)": -0.71,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -1.12
+      },
+      {
+        "Frequency (MHz)": 3220.0,
+        "Efficiency (dB)": -0.68,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 3240.0,
+        "Efficiency (dB)": -0.67,
+        "Efficiency (dB)_Date": -0.69,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -1.18
+      },
+      {
+        "Frequency (MHz)": 3260.0,
+        "Efficiency (dB)": -0.65,
+        "Efficiency (dB)_Date": -0.74,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -1.2
+      },
+      {
+        "Frequency (MHz)": 3280.0,
+        "Efficiency (dB)": -0.64,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -1.14
+      },
+      {
+        "Frequency (MHz)": 3300.0,
+        "Efficiency (dB)": -0.63,
+        "Efficiency (dB)_Date": -0.71,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -1.2
+      },
+      {
+        "Frequency (MHz)": 3320.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.69,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -1.25
+      },
+      {
+        "Frequency (MHz)": 3340.0,
+        "Efficiency (dB)": -0.61,
+        "Efficiency (dB)_Date": -0.56,
+        "Efficiency (dB)_Upper Limit": 0.29,
+        "Efficiency (dB)_Lower Limit": -1.21
+      },
+      {
+        "Frequency (MHz)": 3360.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.16
+      },
+      {
+        "Frequency (MHz)": 3380.0,
+        "Efficiency (dB)": -0.59,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -1.2
+      },
+      {
+        "Frequency (MHz)": 3400.0,
+        "Efficiency (dB)": -0.57,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -1.25
+      },
+      {
+        "Frequency (MHz)": 3420.0,
+        "Efficiency (dB)": -0.55,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -1.18
+      },
+      {
+        "Frequency (MHz)": 3440.0,
+        "Efficiency (dB)": -0.52,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.06
+      },
+      {
+        "Frequency (MHz)": 3460.0,
+        "Efficiency (dB)": -0.5,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 3480.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.06
+      },
+      {
+        "Frequency (MHz)": 3500.0,
+        "Efficiency (dB)": -0.46,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.03
+      },
+      {
+        "Frequency (MHz)": 3520.0,
+        "Efficiency (dB)": -0.44,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 3540.0,
+        "Efficiency (dB)": -0.42,
+        "Efficiency (dB)_Date": -0.5,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.98
+      },
+      {
+        "Frequency (MHz)": 3560.0,
+        "Efficiency (dB)": -0.41,
+        "Efficiency (dB)_Date": -0.54,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 3580.0,
+        "Efficiency (dB)": -0.41,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 3600.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.47,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 3620.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 3640.0,
+        "Efficiency (dB)": -0.39,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -1.11
+      },
+      {
+        "Frequency (MHz)": 3660.0,
+        "Efficiency (dB)": -0.39,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 3680.0,
+        "Efficiency (dB)": -0.39,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 3700.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 3720.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 3740.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.03
+      },
+      {
+        "Frequency (MHz)": 3760.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.98
+      },
+      {
+        "Frequency (MHz)": 3780.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -1.0
+      },
+      {
+        "Frequency (MHz)": 3800.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.38,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.98
+      },
+      {
+        "Frequency (MHz)": 3820.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.54,
+        "Efficiency (dB)_Lower Limit": -0.96
+      },
+      {
+        "Frequency (MHz)": 3840.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.56,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 3860.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.97
+      },
+      {
+        "Frequency (MHz)": 3880.0,
+        "Efficiency (dB)": -0.39,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -1.0
+      },
+      {
+        "Frequency (MHz)": 3900.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 3920.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.01
+      },
+      {
+        "Frequency (MHz)": 3940.0,
+        "Efficiency (dB)": -0.41,
+        "Efficiency (dB)_Date": -0.38,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 3960.0,
+        "Efficiency (dB)": -0.42,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.16
+      },
+      {
+        "Frequency (MHz)": 3980.0,
+        "Efficiency (dB)": -0.42,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -1.18
+      },
+      {
+        "Frequency (MHz)": 4000.0,
+        "Efficiency (dB)": -0.43,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -1.13
+      },
+      {
+        "Frequency (MHz)": 4020.0,
+        "Efficiency (dB)": -0.43,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -1.12
+      },
+      {
+        "Frequency (MHz)": 4040.0,
+        "Efficiency (dB)": -0.44,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -1.12
+      },
+      {
+        "Frequency (MHz)": 4060.0,
+        "Efficiency (dB)": -0.45,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 4080.0,
+        "Efficiency (dB)": -0.45,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 4100.0,
+        "Efficiency (dB)": -0.46,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 4120.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 4140.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.5,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 4160.0,
+        "Efficiency (dB)": -0.49,
+        "Efficiency (dB)_Date": -0.59,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.06
+      },
+      {
+        "Frequency (MHz)": 4180.0,
+        "Efficiency (dB)": -0.49,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 4200.0,
+        "Efficiency (dB)": -0.5,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 4220.0,
+        "Efficiency (dB)": -0.51,
+        "Efficiency (dB)_Date": -0.5,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -1.14
+      },
+      {
+        "Frequency (MHz)": 4240.0,
+        "Efficiency (dB)": -0.52,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.3,
+        "Efficiency (dB)_Lower Limit": -1.2
+      },
+      {
+        "Frequency (MHz)": 4260.0,
+        "Efficiency (dB)": -0.53,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.32,
+        "Efficiency (dB)_Lower Limit": -1.18
+      },
+      {
+        "Frequency (MHz)": 4280.0,
+        "Efficiency (dB)": -0.53,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.27,
+        "Efficiency (dB)_Lower Limit": -1.23
+      },
+      {
+        "Frequency (MHz)": 4300.0,
+        "Efficiency (dB)": -0.54,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.15,
+        "Efficiency (dB)_Lower Limit": -1.36
+      },
+      {
+        "Frequency (MHz)": 4320.0,
+        "Efficiency (dB)": -0.55,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -1.35
+      },
+      {
+        "Frequency (MHz)": 4340.0,
+        "Efficiency (dB)": -0.56,
+        "Efficiency (dB)_Date": -0.56,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -1.34
+      },
+      {
+        "Frequency (MHz)": 4360.0,
+        "Efficiency (dB)": -0.56,
+        "Efficiency (dB)_Date": -0.59,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -1.34
+      },
+      {
+        "Frequency (MHz)": 4380.0,
+        "Efficiency (dB)": -0.57,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -1.31
+      },
+      {
+        "Frequency (MHz)": 4400.0,
+        "Efficiency (dB)": -0.57,
+        "Efficiency (dB)_Date": -0.65,
+        "Efficiency (dB)_Upper Limit": 0.23,
+        "Efficiency (dB)_Lower Limit": -1.28
+      },
+      {
+        "Frequency (MHz)": 4420.0,
+        "Efficiency (dB)": -0.58,
+        "Efficiency (dB)_Date": -0.77,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -1.25
+      },
+      {
+        "Frequency (MHz)": 4440.0,
+        "Efficiency (dB)": -0.58,
+        "Efficiency (dB)_Date": -0.76,
+        "Efficiency (dB)_Upper Limit": 0.28,
+        "Efficiency (dB)_Lower Limit": -1.22
+      },
+      {
+        "Frequency (MHz)": 4460.0,
+        "Efficiency (dB)": -0.59,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": 0.34,
+        "Efficiency (dB)_Lower Limit": -1.16
+      },
+      {
+        "Frequency (MHz)": 4480.0,
+        "Efficiency (dB)": -0.59,
+        "Efficiency (dB)_Date": -0.64,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -1.17
+      },
+      {
+        "Frequency (MHz)": 4500.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.7,
+        "Efficiency (dB)_Upper Limit": 0.22,
+        "Efficiency (dB)_Lower Limit": -1.28
+      },
+      {
+        "Frequency (MHz)": 4520.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.69,
+        "Efficiency (dB)_Upper Limit": 0.16,
+        "Efficiency (dB)_Lower Limit": -1.34
+      },
+      {
+        "Frequency (MHz)": 4540.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.65,
+        "Efficiency (dB)_Upper Limit": 0.12,
+        "Efficiency (dB)_Lower Limit": -1.38
+      },
+      {
+        "Frequency (MHz)": 4560.0,
+        "Efficiency (dB)": -0.61,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.1,
+        "Efficiency (dB)_Lower Limit": -1.4
+      },
+      {
+        "Frequency (MHz)": 4580.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.07,
+        "Efficiency (dB)_Lower Limit": -1.43
+      },
+      {
+        "Frequency (MHz)": 4600.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.58,
+        "Efficiency (dB)_Upper Limit": 0.04,
+        "Efficiency (dB)_Lower Limit": -1.46
+      },
+      {
+        "Frequency (MHz)": 4620.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.01,
+        "Efficiency (dB)_Lower Limit": -1.49
+      },
+      {
+        "Frequency (MHz)": 4640.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.61,
+        "Efficiency (dB)_Upper Limit": 0.06,
+        "Efficiency (dB)_Lower Limit": -1.44
+      },
+      {
+        "Frequency (MHz)": 4660.0,
+        "Efficiency (dB)": -0.63,
+        "Efficiency (dB)_Date": -0.63,
+        "Efficiency (dB)_Upper Limit": 0.09,
+        "Efficiency (dB)_Lower Limit": -1.41
+      },
+      {
+        "Frequency (MHz)": 4680.0,
+        "Efficiency (dB)": -0.63,
+        "Efficiency (dB)_Date": -0.71,
+        "Efficiency (dB)_Upper Limit": 0.07,
+        "Efficiency (dB)_Lower Limit": -1.44
+      },
+      {
+        "Frequency (MHz)": 4700.0,
+        "Efficiency (dB)": -0.63,
+        "Efficiency (dB)_Date": -0.72,
+        "Efficiency (dB)_Upper Limit": 0.09,
+        "Efficiency (dB)_Lower Limit": -1.41
+      },
+      {
+        "Frequency (MHz)": 4720.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.72,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -1.32
+      },
+      {
+        "Frequency (MHz)": 4740.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.74,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -1.29
+      },
+      {
+        "Frequency (MHz)": 4760.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": 0.25,
+        "Efficiency (dB)_Lower Limit": -1.26
+      },
+      {
+        "Frequency (MHz)": 4780.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": 0.22,
+        "Efficiency (dB)_Lower Limit": -1.28
+      },
+      {
+        "Frequency (MHz)": 4800.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.64,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -1.31
+      },
+      {
+        "Frequency (MHz)": 4820.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.22,
+        "Efficiency (dB)_Lower Limit": -1.28
+      },
+      {
+        "Frequency (MHz)": 4840.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.12,
+        "Efficiency (dB)_Lower Limit": -1.39
+      },
+      {
+        "Frequency (MHz)": 4860.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": 0.03,
+        "Efficiency (dB)_Lower Limit": -1.47
+      },
+      {
+        "Frequency (MHz)": 4880.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.68,
+        "Efficiency (dB)_Upper Limit": -0.05,
+        "Efficiency (dB)_Lower Limit": -1.55
+      },
+      {
+        "Frequency (MHz)": 4900.0,
+        "Efficiency (dB)": -0.62,
+        "Efficiency (dB)_Date": -0.58,
+        "Efficiency (dB)_Upper Limit": 0.04,
+        "Efficiency (dB)_Lower Limit": -1.47
+      },
+      {
+        "Frequency (MHz)": 4920.0,
+        "Efficiency (dB)": -0.61,
+        "Efficiency (dB)_Date": -0.62,
+        "Efficiency (dB)_Upper Limit": 0.0,
+        "Efficiency (dB)_Lower Limit": -1.5
+      },
+      {
+        "Frequency (MHz)": 4940.0,
+        "Efficiency (dB)": -0.61,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.03,
+        "Efficiency (dB)_Lower Limit": -1.48
+      },
+      {
+        "Frequency (MHz)": 4960.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.63,
+        "Efficiency (dB)_Upper Limit": 0.1,
+        "Efficiency (dB)_Lower Limit": -1.41
+      },
+      {
+        "Frequency (MHz)": 4980.0,
+        "Efficiency (dB)": -0.6,
+        "Efficiency (dB)_Date": -0.63,
+        "Efficiency (dB)_Upper Limit": 0.15,
+        "Efficiency (dB)_Lower Limit": -1.35
+      },
+      {
+        "Frequency (MHz)": 5000.0,
+        "Efficiency (dB)": -0.59,
+        "Efficiency (dB)_Date": -0.54,
+        "Efficiency (dB)_Upper Limit": 0.24,
+        "Efficiency (dB)_Lower Limit": -1.26
+      },
+      {
+        "Frequency (MHz)": 5020.0,
+        "Efficiency (dB)": -0.58,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -1.15
+      },
+      {
+        "Frequency (MHz)": 5040.0,
+        "Efficiency (dB)": -0.58,
+        "Efficiency (dB)_Date": -0.47,
+        "Efficiency (dB)_Upper Limit": 0.37,
+        "Efficiency (dB)_Lower Limit": -1.13
+      },
+      {
+        "Frequency (MHz)": 5060.0,
+        "Efficiency (dB)": -0.57,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -1.14
+      },
+      {
+        "Frequency (MHz)": 5080.0,
+        "Efficiency (dB)": -0.56,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.33,
+        "Efficiency (dB)_Lower Limit": -1.17
+      },
+      {
+        "Frequency (MHz)": 5100.0,
+        "Efficiency (dB)": -0.56,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -1.14
+      },
+      {
+        "Frequency (MHz)": 5120.0,
+        "Efficiency (dB)": -0.55,
+        "Efficiency (dB)_Date": -0.38,
+        "Efficiency (dB)_Upper Limit": 0.35,
+        "Efficiency (dB)_Lower Limit": -1.16
+      },
+      {
+        "Frequency (MHz)": 5140.0,
+        "Efficiency (dB)": -0.54,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.27,
+        "Efficiency (dB)_Lower Limit": -1.23
+      },
+      {
+        "Frequency (MHz)": 5160.0,
+        "Efficiency (dB)": -0.53,
+        "Efficiency (dB)_Date": -0.46,
+        "Efficiency (dB)_Upper Limit": 0.19,
+        "Efficiency (dB)_Lower Limit": -1.31
+      },
+      {
+        "Frequency (MHz)": 5180.0,
+        "Efficiency (dB)": -0.52,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.2,
+        "Efficiency (dB)_Lower Limit": -1.3
+      },
+      {
+        "Frequency (MHz)": 5200.0,
+        "Efficiency (dB)": -0.51,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -1.32
+      },
+      {
+        "Frequency (MHz)": 5220.0,
+        "Efficiency (dB)": -0.5,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.17,
+        "Efficiency (dB)_Lower Limit": -1.33
+      },
+      {
+        "Frequency (MHz)": 5240.0,
+        "Efficiency (dB)": -0.49,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.18,
+        "Efficiency (dB)_Lower Limit": -1.32
+      },
+      {
+        "Frequency (MHz)": 5260.0,
+        "Efficiency (dB)": -0.48,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.21,
+        "Efficiency (dB)_Lower Limit": -1.3
+      },
+      {
+        "Frequency (MHz)": 5280.0,
+        "Efficiency (dB)": -0.47,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.26,
+        "Efficiency (dB)_Lower Limit": -1.24
+      },
+      {
+        "Frequency (MHz)": 5300.0,
+        "Efficiency (dB)": -0.45,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -1.14
+      },
+      {
+        "Frequency (MHz)": 5320.0,
+        "Efficiency (dB)": -0.44,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.39,
+        "Efficiency (dB)_Lower Limit": -1.11
+      },
+      {
+        "Frequency (MHz)": 5340.0,
+        "Efficiency (dB)": -0.43,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 5360.0,
+        "Efficiency (dB)": -0.42,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.56,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 5380.0,
+        "Efficiency (dB)": -0.41,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.98
+      },
+      {
+        "Frequency (MHz)": 5400.0,
+        "Efficiency (dB)": -0.4,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.03
+      },
+      {
+        "Frequency (MHz)": 5420.0,
+        "Efficiency (dB)": -0.39,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -1.0
+      },
+      {
+        "Frequency (MHz)": 5440.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.51,
+        "Efficiency (dB)_Lower Limit": -0.99
+      },
+      {
+        "Frequency (MHz)": 5460.0,
+        "Efficiency (dB)": -0.36,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.01
+      },
+      {
+        "Frequency (MHz)": 5480.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 5500.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -1.06
+      },
+      {
+        "Frequency (MHz)": 5520.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 5540.0,
+        "Efficiency (dB)": -0.33,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 5560.0,
+        "Efficiency (dB)": -0.32,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 5580.0,
+        "Efficiency (dB)": -0.31,
+        "Efficiency (dB)_Date": -0.38,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 5600.0,
+        "Efficiency (dB)": -0.31,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 5620.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 5640.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 5660.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.55,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 5680.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.59,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 5700.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.6,
+        "Efficiency (dB)_Lower Limit": -0.9
+      },
+      {
+        "Frequency (MHz)": 5720.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.6,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 5740.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 5760.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.59,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 5780.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.59,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 5800.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.55,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 5820.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -1.01
+      },
+      {
+        "Frequency (MHz)": 5840.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 5860.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 5880.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 5900.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.45,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 5920.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.01
+      },
+      {
+        "Frequency (MHz)": 5940.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 5960.0,
+        "Efficiency (dB)": -0.31,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.01
+      },
+      {
+        "Frequency (MHz)": 5980.0,
+        "Efficiency (dB)": -0.31,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.58,
+        "Efficiency (dB)_Lower Limit": -0.92
+      },
+      {
+        "Frequency (MHz)": 6000.0,
+        "Efficiency (dB)": -0.32,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.94
+      },
+      {
+        "Frequency (MHz)": 6020.0,
+        "Efficiency (dB)": -0.32,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 6040.0,
+        "Efficiency (dB)": -0.33,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.62,
+        "Efficiency (dB)_Lower Limit": -0.88
+      },
+      {
+        "Frequency (MHz)": 6060.0,
+        "Efficiency (dB)": -0.33,
+        "Efficiency (dB)_Date": -0.23,
+        "Efficiency (dB)_Upper Limit": 0.68,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 6080.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 6100.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.55,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 6120.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -1.0
+      },
+      {
+        "Frequency (MHz)": 6140.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 6160.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.43,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 6180.0,
+        "Efficiency (dB)": -0.36,
+        "Efficiency (dB)_Date": -0.54,
+        "Efficiency (dB)_Upper Limit": 0.36,
+        "Efficiency (dB)_Lower Limit": -1.14
+      },
+      {
+        "Frequency (MHz)": 6200.0,
+        "Efficiency (dB)": -0.36,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -1.13
+      },
+      {
+        "Frequency (MHz)": 6220.0,
+        "Efficiency (dB)": -0.36,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.46,
+        "Efficiency (dB)_Lower Limit": -1.05
+      },
+      {
+        "Frequency (MHz)": 6240.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.03
+      },
+      {
+        "Frequency (MHz)": 6260.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.5,
+        "Efficiency (dB)_Lower Limit": -1.0
+      },
+      {
+        "Frequency (MHz)": 6280.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.17,
+        "Efficiency (dB)_Upper Limit": 0.65,
+        "Efficiency (dB)_Lower Limit": -0.85
+      },
+      {
+        "Frequency (MHz)": 6300.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.16,
+        "Efficiency (dB)_Upper Limit": 0.74,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 6320.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.21,
+        "Efficiency (dB)_Upper Limit": 0.69,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 6340.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.71,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 6360.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.67,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 6380.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 6400.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.56,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 6420.0,
+        "Efficiency (dB)": -0.38,
+        "Efficiency (dB)_Date": -0.5,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 6440.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.44,
+        "Efficiency (dB)_Lower Limit": -1.07
+      },
+      {
+        "Frequency (MHz)": 6460.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.41,
+        "Efficiency (dB)_Lower Limit": -1.09
+      },
+      {
+        "Frequency (MHz)": 6480.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.4,
+        "Efficiency (dB)_Lower Limit": -1.11
+      },
+      {
+        "Frequency (MHz)": 6500.0,
+        "Efficiency (dB)": -0.37,
+        "Efficiency (dB)_Date": -0.53,
+        "Efficiency (dB)_Upper Limit": 0.38,
+        "Efficiency (dB)_Lower Limit": -1.12
+      },
+      {
+        "Frequency (MHz)": 6520.0,
+        "Efficiency (dB)": -0.36,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 6540.0,
+        "Efficiency (dB)": -0.36,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.98
+      },
+      {
+        "Frequency (MHz)": 6560.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 6580.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.4,
+        "Efficiency (dB)_Upper Limit": 0.6,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 6600.0,
+        "Efficiency (dB)": -0.35,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.71,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 6620.0,
+        "Efficiency (dB)": -0.34,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.78,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 6640.0,
+        "Efficiency (dB)": -0.33,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.66,
+        "Efficiency (dB)_Lower Limit": -0.84
+      },
+      {
+        "Frequency (MHz)": 6660.0,
+        "Efficiency (dB)": -0.33,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 6680.0,
+        "Efficiency (dB)": -0.32,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.65,
+        "Efficiency (dB)_Lower Limit": -0.85
+      },
+      {
+        "Frequency (MHz)": 6700.0,
+        "Efficiency (dB)": -0.32,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 6720.0,
+        "Efficiency (dB)": -0.31,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.97
+      },
+      {
+        "Frequency (MHz)": 6740.0,
+        "Efficiency (dB)": -0.31,
+        "Efficiency (dB)_Date": -0.53,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 6760.0,
+        "Efficiency (dB)": -0.3,
+        "Efficiency (dB)_Date": -0.55,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 6780.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.01
+      },
+      {
+        "Frequency (MHz)": 6800.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.46,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.98
+      },
+      {
+        "Frequency (MHz)": 6820.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.55,
+        "Efficiency (dB)_Lower Limit": -0.95
+      },
+      {
+        "Frequency (MHz)": 6840.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.62,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 6860.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.67,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 6880.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.68,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 6900.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.46,
+        "Efficiency (dB)_Upper Limit": 0.69,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 6920.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.72,
+        "Efficiency (dB)_Lower Limit": -0.78
+      },
+      {
+        "Frequency (MHz)": 6940.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.75,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 6960.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.68,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 6980.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 7000.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.68,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 7020.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.66,
+        "Efficiency (dB)_Lower Limit": -0.84
+      },
+      {
+        "Frequency (MHz)": 7040.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.67,
+        "Efficiency (dB)_Lower Limit": -0.84
+      },
+      {
+        "Frequency (MHz)": 7060.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.69,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 7080.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.68,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 7100.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 7120.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.69,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 7140.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.75,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 7160.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.77,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 7180.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.73,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 7200.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.76,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 7220.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.78,
+        "Efficiency (dB)_Lower Limit": -0.72
+      },
+      {
+        "Frequency (MHz)": 7240.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.31,
+        "Efficiency (dB)_Upper Limit": 0.75,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 7260.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.73,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 7280.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.29,
+        "Efficiency (dB)_Upper Limit": 0.71,
+        "Efficiency (dB)_Lower Limit": -0.79
+      },
+      {
+        "Frequency (MHz)": 7300.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.75,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 7320.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.72,
+        "Efficiency (dB)_Lower Limit": -0.78
+      },
+      {
+        "Frequency (MHz)": 7340.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.25,
+        "Efficiency (dB)_Upper Limit": 0.68,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 7360.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.22,
+        "Efficiency (dB)_Upper Limit": 0.71,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 7380.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.66,
+        "Efficiency (dB)_Lower Limit": -0.85
+      },
+      {
+        "Frequency (MHz)": 7400.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.69,
+        "Efficiency (dB)_Lower Limit": -0.81
+      },
+      {
+        "Frequency (MHz)": 7420.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 7440.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 7460.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 7480.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.74,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 7500.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.75,
+        "Efficiency (dB)_Lower Limit": -0.75
+      },
+      {
+        "Frequency (MHz)": 7520.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.43,
+        "Efficiency (dB)_Upper Limit": 0.73,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 7540.0,
+        "Efficiency (dB)": -0.16,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.74,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 7560.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.71,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 7580.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.71,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 7600.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.37,
+        "Efficiency (dB)_Upper Limit": 0.64,
+        "Efficiency (dB)_Lower Limit": -0.86
+      },
+      {
+        "Frequency (MHz)": 7620.0,
+        "Efficiency (dB)": -0.17,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 7640.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.32,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 7660.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.6,
+        "Efficiency (dB)_Lower Limit": -0.9
+      },
+      {
+        "Frequency (MHz)": 7680.0,
+        "Efficiency (dB)": -0.18,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.6,
+        "Efficiency (dB)_Lower Limit": -0.9
+      },
+      {
+        "Frequency (MHz)": 7700.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.56,
+        "Efficiency (dB)_Lower Limit": -0.94
+      },
+      {
+        "Frequency (MHz)": 7720.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 7740.0,
+        "Efficiency (dB)": -0.19,
+        "Efficiency (dB)_Date": -0.6,
+        "Efficiency (dB)_Upper Limit": 0.59,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 7760.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.54,
+        "Efficiency (dB)_Upper Limit": 0.61,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 7780.0,
+        "Efficiency (dB)": -0.2,
+        "Efficiency (dB)_Date": -0.56,
+        "Efficiency (dB)_Upper Limit": 0.62,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 7800.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.64,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.88
+      },
+      {
+        "Frequency (MHz)": 7820.0,
+        "Efficiency (dB)": -0.21,
+        "Efficiency (dB)_Date": -0.76,
+        "Efficiency (dB)_Upper Limit": 0.58,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 7840.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.75,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 7860.0,
+        "Efficiency (dB)": -0.22,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.58,
+        "Efficiency (dB)_Lower Limit": -0.92
+      },
+      {
+        "Frequency (MHz)": 7880.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.51,
+        "Efficiency (dB)_Upper Limit": 0.55,
+        "Efficiency (dB)_Lower Limit": -0.96
+      },
+      {
+        "Frequency (MHz)": 7900.0,
+        "Efficiency (dB)": -0.23,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.97
+      },
+      {
+        "Frequency (MHz)": 7920.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.44,
+        "Efficiency (dB)_Upper Limit": 0.49,
+        "Efficiency (dB)_Lower Limit": -1.01
+      },
+      {
+        "Frequency (MHz)": 7940.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.41,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.03
+      },
+      {
+        "Frequency (MHz)": 7960.0,
+        "Efficiency (dB)": -0.24,
+        "Efficiency (dB)_Date": -0.36,
+        "Efficiency (dB)_Upper Limit": 0.59,
+        "Efficiency (dB)_Lower Limit": -0.91
+      },
+      {
+        "Frequency (MHz)": 7980.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 8000.0,
+        "Efficiency (dB)": -0.25,
+        "Efficiency (dB)_Date": -0.33,
+        "Efficiency (dB)_Upper Limit": 0.62,
+        "Efficiency (dB)_Lower Limit": -0.88
+      },
+      {
+        "Frequency (MHz)": 8020.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.48,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 8040.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.57,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 8060.0,
+        "Efficiency (dB)": -0.26,
+        "Efficiency (dB)_Date": -0.8,
+        "Efficiency (dB)_Upper Limit": 0.62,
+        "Efficiency (dB)_Lower Limit": -0.88
+      },
+      {
+        "Frequency (MHz)": 8080.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.73,
+        "Efficiency (dB)_Upper Limit": 0.58,
+        "Efficiency (dB)_Lower Limit": -0.92
+      },
+      {
+        "Frequency (MHz)": 8100.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.68,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 8120.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.66,
+        "Efficiency (dB)_Upper Limit": 0.54,
+        "Efficiency (dB)_Lower Limit": -0.96
+      },
+      {
+        "Frequency (MHz)": 8140.0,
+        "Efficiency (dB)": -0.27,
+        "Efficiency (dB)_Date": -0.7,
+        "Efficiency (dB)_Upper Limit": 0.48,
+        "Efficiency (dB)_Lower Limit": -1.02
+      },
+      {
+        "Frequency (MHz)": 8160.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.76,
+        "Efficiency (dB)_Upper Limit": 0.47,
+        "Efficiency (dB)_Lower Limit": -1.04
+      },
+      {
+        "Frequency (MHz)": 8180.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.52,
+        "Efficiency (dB)_Upper Limit": 0.52,
+        "Efficiency (dB)_Lower Limit": -0.99
+      },
+      {
+        "Frequency (MHz)": 8200.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.2,
+        "Efficiency (dB)_Upper Limit": 0.53,
+        "Efficiency (dB)_Lower Limit": -0.97
+      },
+      {
+        "Frequency (MHz)": 8220.0,
+        "Efficiency (dB)": -0.28,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.57,
+        "Efficiency (dB)_Lower Limit": -0.93
+      },
+      {
+        "Frequency (MHz)": 8240.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.3,
+        "Efficiency (dB)_Upper Limit": 0.62,
+        "Efficiency (dB)_Lower Limit": -0.89
+      },
+      {
+        "Frequency (MHz)": 8260.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.28,
+        "Efficiency (dB)_Upper Limit": 0.63,
+        "Efficiency (dB)_Lower Limit": -0.87
+      },
+      {
+        "Frequency (MHz)": 8280.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.35,
+        "Efficiency (dB)_Upper Limit": 0.72,
+        "Efficiency (dB)_Lower Limit": -0.78
+      },
+      {
+        "Frequency (MHz)": 8300.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.39,
+        "Efficiency (dB)_Upper Limit": 0.76,
+        "Efficiency (dB)_Lower Limit": -0.74
+      },
+      {
+        "Frequency (MHz)": 8320.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.74,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 8340.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.45,
+        "Efficiency (dB)_Upper Limit": 0.73,
+        "Efficiency (dB)_Lower Limit": -0.78
+      },
+      {
+        "Frequency (MHz)": 8360.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.49,
+        "Efficiency (dB)_Upper Limit": 0.73,
+        "Efficiency (dB)_Lower Limit": -0.77
+      },
+      {
+        "Frequency (MHz)": 8380.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.74,
+        "Efficiency (dB)_Lower Limit": -0.76
+      },
+      {
+        "Frequency (MHz)": 8400.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.58,
+        "Efficiency (dB)_Upper Limit": 0.68,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 8420.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.42,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 8440.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.27,
+        "Efficiency (dB)_Upper Limit": 0.67,
+        "Efficiency (dB)_Lower Limit": -0.83
+      },
+      {
+        "Frequency (MHz)": 8460.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.24,
+        "Efficiency (dB)_Upper Limit": 0.7,
+        "Efficiency (dB)_Lower Limit": -0.8
+      },
+      {
+        "Frequency (MHz)": 8480.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.34,
+        "Efficiency (dB)_Upper Limit": 0.69,
+        "Efficiency (dB)_Lower Limit": -0.82
+      },
+      {
+        "Frequency (MHz)": 8500.0,
+        "Efficiency (dB)": -0.29,
+        "Efficiency (dB)_Date": -0.26,
+        "Efficiency (dB)_Upper Limit": 0.75,
+        "Efficiency (dB)_Lower Limit": -0.75
+      }
+    ]
+  }
+}
