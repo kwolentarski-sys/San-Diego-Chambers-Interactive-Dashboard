@@ -24,15 +24,16 @@ def load_data(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-# Helper function for strictly formatting pass/fail font colors
-def get_status_color(val):
-    val_str = str(val).strip().upper()
-    if "FAIL" in val_str:
-        return '#da0303' # Red
-    elif "PASS" in val_str:
-        return '#04c136' # Green
+# Helper function for strictly formatting pass/fail text with HTML
+def format_status(val):
+    val_str = str(val).strip()
+    upper_str = val_str.upper()
+    if "FAIL" in upper_str:
+        return f"<span style='color: #da0303;'>{val_str}</span>"
+    elif "PASS" in upper_str:
+        return f"<span style='color: #04c136;'>{val_str}</span>"
     else:
-        return '#000000' # Black
+        return val_str
 
 # Dictionary to map antenna names to their frequency ranges for titles
 ANTENNA_RANGES = {
@@ -458,8 +459,8 @@ if summary_report_choice == "Satimo 1 Passive Report":
                         "Test Category": category,
                         "Antenna": antenna,
                         "Date": date,
-                        "Upper Limit Result": upper_display,
-                        "Lower Limit Result": lower_display
+                        "Upper Limit Result": format_status(upper_display),
+                        "Lower Limit Result": format_status(lower_display)
                     })
                     
         if all_rows:
@@ -468,16 +469,13 @@ if summary_report_choice == "Satimo 1 Passive Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring mapping
+            # Dynamic cell coloring (White background for limits)
             fill_color_cells = []
-            font_color_cells = []
             for col in df_report.columns:
                 if col in ["Upper Limit Result", "Lower Limit Result"]:
                     fill_color_cells.append(['#ffffff'] * len(df_report))
-                    font_color_cells.append([get_status_color(v) for v in df_report[col]])
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
-                    font_color_cells.append(['#000000'] * len(df_report))
                     
             fig_table = go.Figure(data=[go.Table(
                 header=dict(
@@ -492,7 +490,7 @@ if summary_report_choice == "Satimo 1 Passive Report":
                     values=cell_values,
                     fill_color=fill_color_cells,
                     line=dict(color='black', width=1),
-                    font=dict(color=font_color_cells, size=15),
+                    font=dict(color='#000000', size=15),
                     align='center',
                     height=35
                 )
@@ -645,8 +643,8 @@ elif summary_report_choice == "Satimo 1 Active Report":
                         "Test Category": category,
                         "Band / Freq": identifier,
                         "Date": date,
-                        "Upper Limit Result": upper_display,
-                        "Lower Limit Result": lower_display
+                        "Upper Limit Result": format_status(upper_display),
+                        "Lower Limit Result": format_status(lower_display)
                     })
                     
         if all_rows:
@@ -655,16 +653,13 @@ elif summary_report_choice == "Satimo 1 Active Report":
             header_values = [f"<b>{col}</b>" for col in df_report.columns]
             cell_values = [df_report[col] for col in df_report.columns]
             
-            # Dynamic cell coloring mapping
+            # Dynamic cell coloring (White background for limits)
             fill_color_cells = []
-            font_color_cells = []
             for col in df_report.columns:
                 if col in ["Upper Limit Result", "Lower Limit Result"]:
                     fill_color_cells.append(['#ffffff'] * len(df_report))
-                    font_color_cells.append([get_status_color(v) for v in df_report[col]])
                 else:
                     fill_color_cells.append(['#e9f1ff'] * len(df_report))
-                    font_color_cells.append(['#000000'] * len(df_report))
                     
             fig_table = go.Figure(data=[go.Table(
                 header=dict(
@@ -679,7 +674,7 @@ elif summary_report_choice == "Satimo 1 Active Report":
                     values=cell_values,
                     fill_color=fill_color_cells,
                     line=dict(color='black', width=1),
-                    font=dict(color=font_color_cells, size=15),
+                    font=dict(color='#000000', size=15),
                     align='center',
                     height=35
                 )
@@ -1176,10 +1171,10 @@ elif active_dataset_choice == "Pixel Phone S4 with Dipoles":
             df.rename(columns={"Measured TRP (dBm)": "Measured Total Radiated Power (dBm)"}, inplace=True)
             
         # Ensure correct numerical types for plotting
-        df['Frequency (MHz)'] = df['Frequency (MHz)'].astype(float)
-        df['Calculated Total Radiated Power (dBm)'] = df['Calculated Total Radiated Power (dBm)'].astype(float)
-        df['Measured Total Radiated Power (dBm)'] = df['Measured Total Radiated Power (dBm)'].astype(float)
-        df['Delta (Calc vs Meas) (dB)'] = df['Delta (Calc vs Meas) (dB)'].astype(float)
+        df['Frequency (MHz)'] = pd.to_numeric(df['Frequency (MHz)'], errors='coerce')
+        df['Calculated Total Radiated Power (dBm)'] = pd.to_numeric(df['Calculated Total Radiated Power (dBm)'], errors='coerce')
+        df['Measured Total Radiated Power (dBm)'] = pd.to_numeric(df['Measured Total Radiated Power (dBm)'], errors='coerce')
+        df['Delta (Calc vs Meas) (dB)'] = pd.to_numeric(df['Delta (Calc vs Meas) (dB)'], errors='coerce')
         
         # Extract limit fields
         if 'Upper Limit' in df.columns:
