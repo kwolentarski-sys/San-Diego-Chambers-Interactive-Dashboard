@@ -1,0 +1,531 @@
+{
+  "Report_Name": "Active Validation Summary Report",
+  "LTE TRP": [
+    {
+      "Band Chan": "B71 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B71 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B71 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B28 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B12 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B28 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B28 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B13 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B26 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B26 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B20 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B20 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B26 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B20 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B66 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B66 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B66 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B25 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B25 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B25 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B1 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B1 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B1 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B7 Low",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B7 Mid",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B7 High",
+      "Date": "3/11/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    }
+  ],
+  "LTE TIS": [
+    {
+      "Band Chan": "B71 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B71 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B71 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B12 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B13 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B28 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B28 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B20 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B28 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B20 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B20 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B26 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B26 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B26 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B8 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B3 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B3 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B3 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B25 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B25 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B25 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B66 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B66 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B66 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B7 Low",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B7 Mid",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Band Chan": "B7 High",
+      "Date": "3/3/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    }
+  ],
+  "Pixel Phone with Dipoles": [
+    {
+      "Frequency (MHz)": "664.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "680.50",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "696.45",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "704.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "725.50",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "746.42",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "778.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "782.00",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "785.42",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "825.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "836.50",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "847.42",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "881.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "897.50",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "913.42",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1711.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1747.50",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1783.42",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1851.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1880.00",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1908.42",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1921.58",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1950.00",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "1978.42",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "2502.62",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "2535.00",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Frequency (MHz)": "2567.38",
+      "Date": "7/21/25",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    }
+  ]
+}
