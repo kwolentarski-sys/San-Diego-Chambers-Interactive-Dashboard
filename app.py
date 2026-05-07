@@ -252,7 +252,7 @@ elif test_desc_choice == "aGPS L5 Pattern Only":
 st.sidebar.markdown("---") # Visual divider
 summary_report_choice = st.sidebar.selectbox(
     "**Select Summary Report:**",
-    ("🔵 None", "Satimo 1 Passive Report", "Satimo 2 Passive Report", "Satimo 1 Active Report")
+    ("🔵 None", "Satimo 1 Passive Report", "Satimo 2 Passive Report", "Satimo 1 Active Report", "Satimo 2 Active Report")
 )
 
 # Map Chamber selection to file prefix for generic queries
@@ -272,6 +272,8 @@ elif summary_report_choice == "Satimo 2 Passive Report":
     target_file = 'Satimo2_Passive_Report.json'
 elif summary_report_choice == "Satimo 1 Active Report":
     target_file = 'Satimo1_Active_Report.json'
+elif summary_report_choice == "Satimo 2 Active Report":
+    target_file = 'Satimo2_Active_Report.json'
 elif active_dataset_choice == "LTE TRP":
     target_file = f'{prefix}LTE_Reference_TRP_Quarterly.json'
 elif active_dataset_choice == "LTE TIS":
@@ -316,6 +318,7 @@ known_files = [
     'Satimo1_Passive_Report.json',
     'Satimo2_Passive_Report.json',
     'Satimo1_Active_Report.json',
+    'Satimo2_Active_Report.json',
     'Chambers_Wideband_Dipole_Comparison.json', 
     'Satimo1_Dipoles_Yearly.json', 
     'Satimo2_Dipoles_Yearly.json', 
@@ -519,11 +522,15 @@ if summary_report_choice in ["Satimo 1 Passive Report", "Satimo 2 Passive Report
     else:
         st.error("Data structure error: Summary report must be a JSON dictionary.")
 
-elif summary_report_choice == "Satimo 1 Active Report":
+elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report"]:
+    # Determine which chamber prefix to use based on the menu choice
+    report_chamber_prefix = "Satimo1_" if "Satimo 1" in summary_report_choice else "Satimo2_"
+    display_chamber_title = "Satimo 1" if "Satimo 1" in summary_report_choice else "Satimo 2"
+    
     # --- Logic for Active Validation Summary Report Table ---
     if isinstance(raw_data, dict):
         report_title = raw_data.get("Report_Name", "Active Validation Summary Report")
-        st.markdown(f"<h3 style='color: #0000ff;'>Satimo 1 - {report_title}</h3>", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='color: #0000ff;'>{display_chamber_title} - {report_title}</h3>", unsafe_allow_html=True)
         
         # Helper function to dynamically check pass/fail from the raw active data files
         def evaluate_active_limits(chamber_prefix, category_name, item_id):
@@ -641,8 +648,8 @@ elif summary_report_choice == "Satimo 1 Active Report":
                         
                     date = item.get("Date", "N/A")
                     
-                    # Compute status dynamically based on the actual raw data graphs
-                    dyn_up, dyn_low = evaluate_active_limits(prefix, category, identifier)
+                    # Compute status dynamically based on the actual raw data graphs using proper chamber prefix
+                    dyn_up, dyn_low = evaluate_active_limits(report_chamber_prefix, category, identifier)
                     
                     # Fallback to manual entry if dynamic check is N/A
                     json_up = str(item.get("Upper Limit", "")).strip().capitalize()
