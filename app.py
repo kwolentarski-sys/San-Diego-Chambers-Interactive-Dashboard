@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import json
+import re
 
 # Configure the dashboard layout
 st.set_page_config(page_title="San Diego Chambers Interactive Dashboard", layout="wide")
@@ -603,7 +604,7 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                             all_measurements.extend(item.get("Measurements", []))
                         else:
                             all_measurements.append(item)
-            else: # Pixel Phone with Dipoles - handles both nested device dicts and root lists/dicts
+            else: # Pixel Phone with Dipoles 
                 if isinstance(c_data, dict):
                     if "Data" in c_data:
                         all_measurements.extend(c_data["Data"])
@@ -618,10 +619,22 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
             for raw_m in all_measurements:
                 match = False
                 
-                # --- Advanced Matching Logic ---
-                if category_name in ["LTE TRP", "LTE TIS", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"]:
-                    # Exact string matching for Bands/Channels (e.g. "B71 Low")
-                    if str(raw_m.get("Band Chan", "")).strip().upper() == str(item_id).strip().upper():
+                # --- Advanced Matching Logic (Regex & Mathematical) ---
+                if category_name in ["Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"]:
+                    raw_chan_str = str(raw_m.get("Band Chan", ""))
+                    item_chan_str = str(item_id)
+                    
+                    # Extract the numerical channel at the end of the string (e.g., "LOW ch:0" -> "0")
+                    raw_match = re.search(r'(\d+)$', raw_chan_str.strip())
+                    item_match = re.search(r'(\d+)$', item_chan_str.strip())
+                    
+                    if raw_match and item_match and raw_match.group(1) == item_match.group(1):
+                        match = True
+                    elif raw_chan_str.replace(" ", "").upper() == item_chan_str.replace(" ", "").upper():
+                        match = True
+                elif category_name in ["LTE TRP", "LTE TIS"]:
+                    # Exact string matching ignoring spaces
+                    if str(raw_m.get("Band Chan", "")).replace(" ", "").upper() == str(item_id).replace(" ", "").upper():
                         match = True
                 else: 
                     # Pixel Phone & GPS use Frequencies - Robust numerical matching
@@ -644,39 +657,71 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                             pass
                     else:
                         # Fallback to string if casting completely fails
-                        if str(raw_m.get("Frequency (MHz)", "")).strip() == str(item_id).strip():
+                        if str(raw_m.get("Frequency (MHz)", "")).replace(" ", "").upper() == str(item_id).replace(" ", "").upper():
                             match = True
                 
-                # --- Advanced Limits Extraction ---
+                # --- Advanced Dual Limit Extraction ---
                 if match:
-                    meas = float('nan')
-                    up = float('nan')
-                    low = float('nan')
-                    
-                    # Scan keys aggressively for substrings to avoid missing data due to spelling differences
-                    for k, v in raw_m.items():
-                        kl = str(k).lower()
-                        try:
-                            parsed_v = float(v) if str(v).strip() != "" else float('nan')
-                        except (ValueError, TypeError):
-                            parsed_v = float('nan')
+                    if category_name == "Pixel Phone with Dipoles":
+                        meas, up, low = float('nan'), float('nan'), float('nan')
+                        for k, v in raw_m.items():
+                            kl = str(k).lower()
+                            try: parsed_v = float(v) if str(v).strip() != "" else float('nan')
+                            except: parsed_v = float('nan')
                             
-                        if "upper" in kl:
-                            up = parsed_v
-                        elif "lower" in kl:
-                            low = parsed_v
-                        elif category_name in ["LTE TRP", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"] and "trp" in kl:
-                            meas = parsed_v
-                        elif category_name == "LTE TIS" and "tis" in kl:
-                            meas = parsed_v
-                        elif category_name == "Pixel Phone with Dipoles":
-                            if "meas" in kl and ("trp" in kl or "power" in kl):
-                                meas = parsed_v
-                        elif category_name == "GPS CW L1 L5":
-                            if "average" in kl or "peak" in kl:
-                                meas = parsed_v
-                                
-                    target_m.append({"meas": meas, "up": up, "low": low})
+                            if "upper" in kl: up = parsed_v
+                            elif "lower" in kl: low = parsed_v
+                            elif "meas" in kl and ("trp" in kl or "power" in kl): meas = parsed_v
+                        target_m.append({"meas": meas, "up": up, "low": low})
+                        
+                    elif category_name == "GPS CW L1 L5":
+                        meas, up, low = float('nan'), float('nan'), float('nan')
+                        for k, v in raw_m.items():
+                            kl = str(k).lower()
+                            try: parsed_v = float(v) if str(v).strip() != "" else float('nan')
+                            except: parsed_v = float('nan')
+                            
+                            if "upper" in kl: up = parsed_v
+                            elif "lower" in kl: low = parsed_v
+                            elif "average" in kl or "peak" in kl: meas = parsed_v
+                        target_m.append({"meas": meas, "up": up, "low": low})
+                        
+                    else:
+                        # LTE TRP, LTE TIS, BT, WiFi (Extract TRP and TIS cleanly)
+                        trp_meas, trp_up, trp_low = float('nan'), float('nan'), float('nan')
+                        tis_meas, tis_up, tis_low = float('nan'), float('nan'), float('nan')
+                        
+                        for k, v in raw_m.items():
+                            kl = str(k).lower()
+                            try: parsed_v = float(v) if str(v).strip() != "" else float('nan')
+                            except: parsed_v = float('nan')
+                            
+                            if "trp" in kl:
+                                if "upper" in kl: trp_up = parsed_v
+                                elif "lower" in kl: trp_low = parsed_v
+                                else: trp_meas = parsed_v
+                            elif "tis" in kl:
+                                if "upper" in kl: tis_up = parsed_v
+                                elif "lower" in kl: tis_low = parsed_v
+                                else: tis_meas = parsed_v
+                            elif "upper" in kl: # generic upper limit
+                                trp_up = parsed_v
+                                tis_up = parsed_v
+                            elif "lower" in kl: # generic lower limit
+                                trp_low = parsed_v
+                                tis_low = parsed_v
+                        
+                        # Apply to target logic based on Category
+                        if category_name == "LTE TRP":
+                            target_m.append({"meas": trp_meas, "up": trp_up, "low": trp_low})
+                        elif category_name == "LTE TIS":
+                            target_m.append({"meas": tis_meas, "up": tis_up, "low": tis_low})
+                        else:
+                            # For BT/WiFi combined categories, track both. Fails if either fails.
+                            if not pd.isna(trp_meas):
+                                target_m.append({"meas": trp_meas, "up": trp_up, "low": trp_low})
+                            if not pd.isna(tis_meas):
+                                target_m.append({"meas": tis_meas, "up": tis_up, "low": tis_low})
 
             if not target_m:
                 return "N/A", "N/A"
