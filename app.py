@@ -88,7 +88,8 @@ ph_active_range = st.sidebar.empty()
 chamber_choice = ph_chamber.selectbox(
     "**Select Chamber:**",
     ("Satimo 1 (24 Probe)", "Satimo 2 (64 Probe)", "Satimo 3 (24 Probe)", "Rohde & Schwarz (WPTC-M)"),
-    index=1 # Defaults to Satimo 2 (64 Probe)
+    index=1, # Defaults to Satimo 2 (64 Probe)
+    key="chamber_box"
 )
 
 # Create a clean version of the chamber choice for the title (removes the probe count)
@@ -115,7 +116,8 @@ else:
 # 1. Passive Dataset Selection Toggle 
 dataset_choice = ph_passive_type.selectbox(
     "**Select Passive Validation Type:**",
-    passive_validation_options
+    passive_validation_options,
+    key="passive_box"
 )
 
 # Set dynamic options for Active Validation based on the selected Chamber
@@ -153,14 +155,16 @@ else:
 # 2. Active Dataset Selection Toggle 
 active_dataset_choice = ph_active_type.selectbox(
     "**Select Active Validation Type:**",
-    active_validation_options
+    active_validation_options,
+    key="active_box"
 )
 
 # --- Test Descriptions Menu ---
 st.sidebar.markdown("---") # Visual divider
 test_desc_choice = st.sidebar.selectbox(
     "**Test Descriptions:**",
-    ("🔵 None", "Pixel Phone S4 with Dipoles", "Yearly Dipoles", "Horns Monthly", "Phantom Wrist Dielectric Tracking", "LTE TRP", "LTE TIS", "Wideband Dipole Chamber Comparison", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz", "GPS CW L1 L5", "aGPS L1 TIS", "aGPS L5 Pattern Only")
+    ("🔵 None", "Pixel Phone S4 with Dipoles", "Yearly Dipoles", "Horns Monthly", "Phantom Wrist Dielectric Tracking", "LTE TRP", "LTE TIS", "Wideband Dipole Chamber Comparison", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz", "GPS CW L1 L5", "aGPS L1 TIS", "aGPS L5 Pattern Only"),
+    key="test_desc_box"
 )
 
 # Render the specific description based on user selection by reading the Markdown file
@@ -261,7 +265,8 @@ summary_report_choice = st.sidebar.selectbox(
         "Satimo 1 Active Report", 
         "Satimo 2 Active Report",
         "Satimo 3 Active Report"
-    )
+    ),
+    key="summary_box"
 )
 
 # Map Chamber selection to file prefix for generic queries
@@ -361,7 +366,7 @@ try:
 except FileNotFoundError:
     # Display a disabled "Select Antenna" menu while waiting for passive data to load
     if dataset_choice in ["Yearly Dipoles", "Quarterly Dipoles", "Monthly Horns", "Wideband Dipole Chamber Comparison", "aGPS L1 TIS"] and active_dataset_choice == "🔵 None" and summary_report_choice == "🔵 None":
-        ph_antenna.selectbox("**Select Antenna:**", ["Awaiting Data..."], disabled=True)
+        ph_antenna.selectbox("**Select Antenna:**", ["Awaiting Data..."], disabled=True, key="awaiting_box")
 
     if chamber_choice != "Satimo 2 (64 Probe)" and target_file not in known_files:
         st.info(f"🏗️ **{chamber_choice} is under construction.**\n\nWhen ready, simply upload **`{target_file}`** to GitHub and this dashboard will populate automatically.")
@@ -604,7 +609,7 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                             all_measurements.extend(item.get("Measurements", []))
                         else:
                             all_measurements.append(item)
-            else: # Pixel Phone with Dipoles 
+            else: # Pixel Phone with Dipoles - handles both nested device dicts and root lists/dicts
                 if isinstance(c_data, dict):
                     if "Data" in c_data:
                         all_measurements.extend(c_data["Data"])
@@ -621,26 +626,17 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                 
                 # --- Advanced Matching Logic (Regex & Mathematical) ---
                 if category_name in ["Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"]:
+                    raw_chan_str = str(raw_m.get("Band Chan", ""))
                     item_chan_str = str(item_id)
                     
-                    # Search across ALL keys to build a combined identifying string
-                    raw_combined_str = ""
-                    for k, v in raw_m.items():
-                        if any(x in k.lower() for x in ["chan", "band", "freq"]):
-                            raw_combined_str += str(v) + " "
-                            if str(v).replace(" ", "").upper() == item_chan_str.replace(" ", "").upper():
-                                match = True
-                                break
+                    # Extract the numerical channel at the end of the string (e.g., "LOW ch:0" -> "0")
+                    raw_match = re.search(r'(\d+)$', raw_chan_str.strip())
+                    item_match = re.search(r'(\d+)$', item_chan_str.strip())
                     
-                    # If an exact match failed, extract numbers and look for the channel digit safely
-                    if not match:
-                        raw_nums = re.findall(r'\d+', raw_combined_str)
-                        item_nums = re.findall(r'\d+', item_chan_str)
-                        if item_nums:
-                            target_num = item_nums[-1] # Grabs '36' from 'LOW ch:36'
-                            if target_num in raw_nums: # Checks if '36' exists in the raw data
-                                match = True
-                                
+                    if raw_match and item_match and raw_match.group(1) == item_match.group(1):
+                        match = True
+                    elif raw_chan_str.replace(" ", "").upper() == item_chan_str.replace(" ", "").upper():
+                        match = True
                 elif category_name in ["LTE TRP", "LTE TIS"]:
                     # Exact string matching ignoring spaces
                     if str(raw_m.get("Band Chan", "")).replace(" ", "").upper() == str(item_id).replace(" ", "").upper():
@@ -1457,7 +1453,7 @@ elif active_dataset_choice == "LTE TRP":
     freq_ranges.append("LTE Band/Chan")
         
     # Dropdown to filter by the frequency range
-    selected_range = ph_active_range.selectbox("**Select Frequency Range:**", freq_ranges)
+    selected_range = ph_active_range.selectbox("**Select Frequency Range:**", freq_ranges, key="freq_range_box")
     
     if selected_range == "LTE Band/Chan":
         # --- NEW PAGE: Band/Chan vs TRP View ---
@@ -1697,7 +1693,7 @@ elif active_dataset_choice == "LTE TIS":
     freq_ranges.append("LTE Band/Chan")
         
     # Dropdown to filter by the frequency range
-    selected_range = ph_active_range.selectbox("**Select Frequency Range:**", freq_ranges)
+    selected_range = ph_active_range.selectbox("**Select Frequency Range:**", freq_ranges, key="freq_range_box")
     
     if selected_range == "LTE Band/Chan":
         # --- NEW PAGE: Band/Chan vs TIS View ---
@@ -1900,7 +1896,7 @@ elif dataset_choice == "Wideband Dipole Chamber Comparison":
     # --- Logic for the Multi-Chamber Comparison Data ---
     
     # Render Antenna Selection in its predefined slot above Active Validation
-    selected_antenna = ph_antenna.selectbox("**Select Antenna:**", ["Proxicast Dipole #4"])
+    selected_antenna = ph_antenna.selectbox("**Select Antenna:**", ["Proxicast Dipole #4"], key="antenna_box")
     
     st.markdown("<h3 style='color: #0000ff;'>Wideband - Chamber Comparison Measurements</h3>", unsafe_allow_html=True)
         
@@ -2081,7 +2077,7 @@ else:
         st.stop()
 
     # Render Antenna Selection in its predefined slot above Active Validation
-    selected_antenna = ph_antenna.selectbox("**Select Antenna:**", antenna_names)
+    selected_antenna = ph_antenna.selectbox("**Select Antenna:**", antenna_names, key="antenna_box")
 
     selected_data = next((item for item in data if item.get("dipole_name") == selected_antenna), None)
 
