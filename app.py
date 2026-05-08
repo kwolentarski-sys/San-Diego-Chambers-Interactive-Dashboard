@@ -604,7 +604,7 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                             all_measurements.extend(item.get("Measurements", []))
                         else:
                             all_measurements.append(item)
-            else: # Pixel Phone with Dipoles 
+            else: # Pixel Phone with Dipoles - handles both nested device dicts and root lists/dicts
                 if isinstance(c_data, dict):
                     if "Data" in c_data:
                         all_measurements.extend(c_data["Data"])
