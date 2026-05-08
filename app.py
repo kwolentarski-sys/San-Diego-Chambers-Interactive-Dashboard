@@ -255,17 +255,19 @@ elif test_desc_choice == "aGPS L5 Pattern Only":
 
 # --- Summary Report Menu ---
 st.sidebar.markdown("---") # Visual divider
+
+# Dynamically filter the Summary Report options based on the selected Chamber
+summary_options = ["🔵 None"]
+if "Satimo 1" in chamber_choice:
+    summary_options.extend(["Satimo 1 Passive Report", "Satimo 1 Active Report"])
+elif "Satimo 2" in chamber_choice:
+    summary_options.extend(["Satimo 2 Passive Report", "Satimo 2 Active Report"])
+elif "Satimo 3" in chamber_choice:
+    summary_options.extend(["Satimo 3 Passive Report", "Satimo 3 Active Report"])
+
 summary_report_choice = st.sidebar.selectbox(
     "**Select Summary Report:**",
-    (
-        "🔵 None", 
-        "Satimo 1 Passive Report", 
-        "Satimo 2 Passive Report", 
-        "Satimo 3 Passive Report", 
-        "Satimo 1 Active Report", 
-        "Satimo 2 Active Report",
-        "Satimo 3 Active Report"
-    ),
+    summary_options,
     key="summary_box"
 )
 
@@ -609,7 +611,7 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                             all_measurements.extend(item.get("Measurements", []))
                         else:
                             all_measurements.append(item)
-            else: # Pixel Phone with Dipoles - handles both nested device dicts and root lists/dicts
+            else: # Pixel Phone with Dipoles 
                 if isinstance(c_data, dict):
                     if "Data" in c_data:
                         all_measurements.extend(c_data["Data"])
@@ -626,17 +628,26 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                 
                 # --- Advanced Matching Logic (Regex & Mathematical) ---
                 if category_name in ["Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"]:
-                    raw_chan_str = str(raw_m.get("Band Chan", ""))
                     item_chan_str = str(item_id)
                     
-                    # Extract the numerical channel at the end of the string (e.g., "LOW ch:0" -> "0")
-                    raw_match = re.search(r'(\d+)$', raw_chan_str.strip())
-                    item_match = re.search(r'(\d+)$', item_chan_str.strip())
+                    # Search across ALL keys to build a combined identifying string
+                    raw_combined_str = ""
+                    for k, v in raw_m.items():
+                        if any(x in k.lower() for x in ["chan", "band", "freq"]):
+                            raw_combined_str += str(v) + " "
+                            if str(v).replace(" ", "").upper() == item_chan_str.replace(" ", "").upper():
+                                match = True
+                                break
                     
-                    if raw_match and item_match and raw_match.group(1) == item_match.group(1):
-                        match = True
-                    elif raw_chan_str.replace(" ", "").upper() == item_chan_str.replace(" ", "").upper():
-                        match = True
+                    # If an exact match failed, extract numbers and look for the channel digit safely
+                    if not match:
+                        raw_nums = re.findall(r'\d+', raw_combined_str)
+                        item_nums = re.findall(r'\d+', item_chan_str)
+                        if item_nums:
+                            target_num = item_nums[-1] # Grabs '36' from 'LOW ch:36'
+                            if target_num in raw_nums: # Checks if '36' exists in the raw data
+                                match = True
+                                
                 elif category_name in ["LTE TRP", "LTE TIS"]:
                     # Exact string matching ignoring spaces
                     if str(raw_m.get("Band Chan", "")).replace(" ", "").upper() == str(item_id).replace(" ", "").upper():
