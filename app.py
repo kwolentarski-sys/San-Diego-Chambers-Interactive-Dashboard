@@ -252,7 +252,15 @@ elif test_desc_choice == "aGPS L5 Pattern Only":
 st.sidebar.markdown("---") # Visual divider
 summary_report_choice = st.sidebar.selectbox(
     "**Select Summary Report:**",
-    ("🔵 None", "Satimo 1 Passive Report", "Satimo 2 Passive Report", "Satimo 1 Active Report", "Satimo 2 Active Report")
+    (
+        "🔵 None", 
+        "Satimo 1 Passive Report", 
+        "Satimo 2 Passive Report", 
+        "Satimo 3 Passive Report", 
+        "Satimo 1 Active Report", 
+        "Satimo 2 Active Report",
+        "Satimo 3 Active Report"
+    )
 )
 
 # Map Chamber selection to file prefix for generic queries
@@ -270,10 +278,14 @@ if summary_report_choice == "Satimo 1 Passive Report":
     target_file = 'Satimo1_Passive_Report.json'
 elif summary_report_choice == "Satimo 2 Passive Report":
     target_file = 'Satimo2_Passive_Report.json'
+elif summary_report_choice == "Satimo 3 Passive Report":
+    target_file = 'Satimo3_Passive_Report.json'
 elif summary_report_choice == "Satimo 1 Active Report":
     target_file = 'Satimo1_Active_Report.json'
 elif summary_report_choice == "Satimo 2 Active Report":
     target_file = 'Satimo2_Active_Report.json'
+elif summary_report_choice == "Satimo 3 Active Report":
+    target_file = 'Satimo3_Active_Report.json'
 elif active_dataset_choice == "LTE TRP":
     target_file = f'{prefix}LTE_Reference_TRP_Quarterly.json'
 elif active_dataset_choice == "LTE TIS":
@@ -317,8 +329,10 @@ if not target_file:
 known_files = [
     'Satimo1_Passive_Report.json',
     'Satimo2_Passive_Report.json',
+    'Satimo3_Passive_Report.json',
     'Satimo1_Active_Report.json',
     'Satimo2_Active_Report.json',
+    'Satimo3_Active_Report.json',
     'Chambers_Wideband_Dipole_Comparison.json', 
     'Satimo1_Dipoles_Yearly.json', 
     'Satimo2_Dipoles_Yearly.json', 
@@ -359,10 +373,17 @@ except json.JSONDecodeError:
 
 # --- ROUTING LOGIC BASED ON DATASET TYPE ---
 
-if summary_report_choice in ["Satimo 1 Passive Report", "Satimo 2 Passive Report"]:
+if summary_report_choice in ["Satimo 1 Passive Report", "Satimo 2 Passive Report", "Satimo 3 Passive Report"]:
     # Determine which chamber prefix to use based on the menu choice
-    report_chamber_prefix = "Satimo1_" if "Satimo 1" in summary_report_choice else "Satimo2_"
-    display_chamber_title = "Satimo 1" if "Satimo 1" in summary_report_choice else "Satimo 2"
+    if "Satimo 1" in summary_report_choice:
+        report_chamber_prefix = "Satimo1_"
+        display_chamber_title = "Satimo 1"
+    elif "Satimo 2" in summary_report_choice:
+        report_chamber_prefix = "Satimo2_"
+        display_chamber_title = "Satimo 2"
+    else:
+        report_chamber_prefix = "Satimo3_"
+        display_chamber_title = "Satimo 3"
     
     # --- Logic for Passive Validation Summary Report Table ---
     if isinstance(raw_data, dict):
@@ -525,10 +546,17 @@ if summary_report_choice in ["Satimo 1 Passive Report", "Satimo 2 Passive Report
     else:
         st.error("Data structure error: Summary report must be a JSON dictionary.")
 
-elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report"]:
+elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report", "Satimo 3 Active Report"]:
     # Determine which chamber prefix to use based on the menu choice
-    report_chamber_prefix = "Satimo1_" if "Satimo 1" in summary_report_choice else "Satimo2_"
-    display_chamber_title = "Satimo 1" if "Satimo 1" in summary_report_choice else "Satimo 2"
+    if "Satimo 1" in summary_report_choice:
+        report_chamber_prefix = "Satimo1_"
+        display_chamber_title = "Satimo 1"
+    elif "Satimo 2" in summary_report_choice:
+        report_chamber_prefix = "Satimo2_"
+        display_chamber_title = "Satimo 2"
+    else:
+        report_chamber_prefix = "Satimo3_"
+        display_chamber_title = "Satimo 3"
     
     # --- Logic for Active Validation Summary Report Table ---
     if isinstance(raw_data, dict):
@@ -543,6 +571,16 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                 file_to_load = f"{chamber_prefix}LTE_Reference_TRP_Quarterly.json"
             elif category_name == "LTE TIS":
                 file_to_load = f"{chamber_prefix}LTE_Reference_TIS_Quarterly.json"
+            elif category_name == "Bluetooth BDR":
+                file_to_load = f"{chamber_prefix}Bluetooth_BDR_Quarterly.json"
+            elif category_name == "Bluetooth EDR2":
+                file_to_load = f"{chamber_prefix}Bluetooth_EDR2_Quarterly.json"
+            elif category_name == "WiFi 2.4 GHz":
+                file_to_load = f"{chamber_prefix}WiFi_2.4GHz_Quarterly.json"
+            elif category_name == "WiFi 5 GHz":
+                file_to_load = f"{chamber_prefix}WiFi_5GHz_Quarterly.json"
+            elif category_name == "GPS CW L1 L5":
+                file_to_load = f"{chamber_prefix}GPS_CW_L1_L5_Quarterly.json"
             else:
                 return "N/A", "N/A"
                 
@@ -552,7 +590,7 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                 return "N/A", "N/A"
                 
             all_measurements = []
-            if category_name in ["LTE TRP", "LTE TIS"]:
+            if category_name in ["LTE TRP", "LTE TIS", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz", "GPS CW L1 L5"]:
                 if isinstance(c_data, dict):
                     for k, v in c_data.items():
                         if isinstance(v, dict) and "Data" in v:
@@ -581,12 +619,12 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                 match = False
                 
                 # --- Advanced Matching Logic ---
-                if category_name in ["LTE TRP", "LTE TIS"]:
+                if category_name in ["LTE TRP", "LTE TIS", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"]:
                     # Exact string matching for Bands/Channels (e.g. "B71 Low")
                     if str(raw_m.get("Band Chan", "")).strip().upper() == str(item_id).strip().upper():
                         match = True
                 else: 
-                    # Pixel Phone uses Frequencies - Robust numerical matching
+                    # Pixel Phone & GPS use Frequencies - Robust numerical matching
                     raw_freq_val = None
                     for k, v in raw_m.items():
                         if "freq" in k.lower():
@@ -627,12 +665,15 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
                             up = parsed_v
                         elif "lower" in kl:
                             low = parsed_v
-                        elif category_name == "LTE TRP" and kl == "trp (dbm)":
+                        elif category_name in ["LTE TRP", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"] and "trp" in kl:
                             meas = parsed_v
-                        elif category_name == "LTE TIS" and kl == "tis (dbm)":
+                        elif category_name == "LTE TIS" and "tis" in kl:
                             meas = parsed_v
                         elif category_name == "Pixel Phone with Dipoles":
                             if "meas" in kl and ("trp" in kl or "power" in kl):
+                                meas = parsed_v
+                        elif category_name == "GPS CW L1 L5":
+                            if "average" in kl or "peak" in kl:
                                 meas = parsed_v
                                 
                     target_m.append({"meas": meas, "up": up, "low": low})
@@ -669,10 +710,12 @@ elif summary_report_choice in ["Satimo 1 Active Report", "Satimo 2 Active Report
             return up_status, low_status
 
         all_rows = []
-        for category in ["LTE TRP", "LTE TIS", "Pixel Phone with Dipoles"]:
+        # Get all keys dynamically so it perfectly handles Satimo 3's unique categories
+        active_categories = [k for k in raw_data.keys() if k != "Report_Name"]
+        for category in active_categories:
             if category in raw_data:
                 for item in raw_data[category]:
-                    if category in ["LTE TRP", "LTE TIS"]:
+                    if category in ["LTE TRP", "LTE TIS", "Bluetooth BDR", "Bluetooth EDR2", "WiFi 2.4 GHz", "WiFi 5 GHz"]:
                         identifier = item.get("Band Chan", "Unknown")
                     else:
                         identifier = item.get("Frequency (MHz)", "Unknown")
