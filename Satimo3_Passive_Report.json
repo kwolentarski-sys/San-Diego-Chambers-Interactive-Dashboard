@@ -1,0 +1,135 @@
+{
+  "Report_Name": "Passive Validation Summary Report",
+  "Monthly Horns": [
+    {
+      "Antenna": "SH400",
+      "Date": "3/10/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SH2000",
+      "Date": "3/10/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    }
+  ],
+  "Quarterly Dipoles": [
+    {
+      "Antenna": "SD1575",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD2450",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD5150",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD1230",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    }
+  ],
+  "Yearly Dipoles": [
+    {
+      "Antenna": "SD665",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD740",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD836",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD880",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD945",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD1230",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD1575",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD1730",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD1800",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD1900",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD2140",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD2450",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD2600",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD5150",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    },
+    {
+      "Antenna": "SD5650",
+      "Date": "3/12/26",
+      "Upper Limit": "",
+      "Lower Limit": ""
+    }
+  ]
+}
