@@ -1,0 +1,250 @@
+{
+  "Pixel Phone S4 with Dipoles": {
+    "Date": "7/24/25",
+    "Data": [
+      {
+        "LTE Band": "B71 Low",
+        "Frequency (MHz)": 664.58,
+        "Calculated Total Radiated Power (dBm)": 22.42,
+        "Measured Total Radiated Power (dBm)": 22.72,
+        "Delta (Calc vs Meas) (dB)": -0.30,
+        "Upper Limit": 22.92,
+        "Lower Limit": 21.92
+      },
+      {
+        "LTE Band": "B71 Mid",
+        "Frequency (MHz)": 680.50,
+        "Calculated Total Radiated Power (dBm)": 22.71,
+        "Measured Total Radiated Power (dBm)": 22.93,
+        "Delta (Calc vs Meas) (dB)": -0.22,
+        "Upper Limit": 23.21,
+        "Lower Limit": 22.21
+      },
+      {
+        "LTE Band": "B71 High",
+        "Frequency (MHz)": 696.45,
+        "Calculated Total Radiated Power (dBm)": 22.71,
+        "Measured Total Radiated Power (dBm)": 22.78,
+        "Delta (Calc vs Meas) (dB)": -0.07,
+        "Upper Limit": 23.21,
+        "Lower Limit": 22.21
+      },
+      {
+        "LTE Band": "B28 Low",
+        "Frequency (MHz)": 704.58,
+        "Calculated Total Radiated Power (dBm)": 22.36,
+        "Measured Total Radiated Power (dBm)": 22.64,
+        "Delta (Calc vs Meas) (dB)": -0.28,
+        "Upper Limit": 22.86,
+        "Lower Limit": 21.86
+      },
+      {
+        "LTE Band": "B28 Mid",
+        "Frequency (MHz)": 725.50,
+        "Calculated Total Radiated Power (dBm)": 22.14,
+        "Measured Total Radiated Power (dBm)": 22.60,
+        "Delta (Calc vs Meas) (dB)": -0.46,
+        "Upper Limit": 22.64,
+        "Lower Limit": 21.64
+      },
+      {
+        "LTE Band": "B28 High",
+        "Frequency (MHz)": 746.42,
+        "Calculated Total Radiated Power (dBm)": 21.94,
+        "Measured Total Radiated Power (dBm)": 22.53,
+        "Delta (Calc vs Meas) (dB)": -0.59,
+        "Upper Limit": 22.44,
+        "Lower Limit": 21.44
+      },
+      {
+        "LTE Band": "B13 Low",
+        "Frequency (MHz)": 778.58,
+        "Calculated Total Radiated Power (dBm)": 22.77,
+        "Measured Total Radiated Power (dBm)": 23.31,
+        "Delta (Calc vs Meas) (dB)": -0.54,
+        "Upper Limit": 23.27,
+        "Lower Limit": 22.27
+      },
+      {
+        "LTE Band": "B13 Mid",
+        "Frequency (MHz)": 782.00,
+        "Calculated Total Radiated Power (dBm)": 22.77,
+        "Measured Total Radiated Power (dBm)": 23.33,
+        "Delta (Calc vs Meas) (dB)": -0.56,
+        "Upper Limit": 23.27,
+        "Lower Limit": 22.27
+      },
+      {
+        "LTE Band": "B13 High",
+        "Frequency (MHz)": 785.42,
+        "Calculated Total Radiated Power (dBm)": 22.59,
+        "Measured Total Radiated Power (dBm)": 23.12,
+        "Delta (Calc vs Meas) (dB)": -0.53,
+        "Upper Limit": 23.09,
+        "Lower Limit": 22.09
+      },
+      {
+        "LTE Band": "B5 Low",
+        "Frequency (MHz)": 825.58,
+        "Calculated Total Radiated Power (dBm)": 23.10,
+        "Measured Total Radiated Power (dBm)": 23.72,
+        "Delta (Calc vs Meas) (dB)": -0.62,
+        "Upper Limit": 23.60,
+        "Lower Limit": 22.60
+      },
+      {
+        "LTE Band": "B5 Mid",
+        "Frequency (MHz)": 836.50,
+        "Calculated Total Radiated Power (dBm)": 23.08,
+        "Measured Total Radiated Power (dBm)": 23.88,
+        "Delta (Calc vs Meas) (dB)": -0.80,
+        "Upper Limit": 23.58,
+        "Lower Limit": 22.58
+      },
+      {
+        "LTE Band": "B5 High",
+        "Frequency (MHz)": 847.42,
+        "Calculated Total Radiated Power (dBm)": 23.01,
+        "Measured Total Radiated Power (dBm)": 23.73,
+        "Delta (Calc vs Meas) (dB)": -0.72,
+        "Upper Limit": 23.51,
+        "Lower Limit": 22.51
+      },
+      {
+        "LTE Band": "B8 Low",
+        "Frequency (MHz)": 881.58,
+        "Calculated Total Radiated Power (dBm)": 23.17,
+        "Measured Total Radiated Power (dBm)": 23.79,
+        "Delta (Calc vs Meas) (dB)": -0.62,
+        "Upper Limit": 23.67,
+        "Lower Limit": 22.67
+      },
+      {
+        "LTE Band": "B8 Mid",
+        "Frequency (MHz)": 897.50,
+        "Calculated Total Radiated Power (dBm)": 23.62,
+        "Measured Total Radiated Power (dBm)": 23.67,
+        "Delta (Calc vs Meas) (dB)": -0.05,
+        "Upper Limit": 24.12,
+        "Lower Limit": 23.12
+      },
+      {
+        "LTE Band": "B8 High",
+        "Frequency (MHz)": 913.42,
+        "Calculated Total Radiated Power (dBm)": 23.48,
+        "Measured Total Radiated Power (dBm)": 23.51,
+        "Delta (Calc vs Meas) (dB)": -0.03,
+        "Upper Limit": 23.98,
+        "Lower Limit": 22.98
+      },
+      {
+        "LTE Band": "B3 Low",
+        "Frequency (MHz)": 1711.58,
+        "Calculated Total Radiated Power (dBm)": 21.21,
+        "Measured Total Radiated Power (dBm)": 20.89,
+        "Delta (Calc vs Meas) (dB)": 0.32,
+        "Upper Limit": 21.71,
+        "Lower Limit": 20.71
+      },
+      {
+        "LTE Band": "B3 Mid",
+        "Frequency (MHz)": 1747.50,
+        "Calculated Total Radiated Power (dBm)": 21.47,
+        "Measured Total Radiated Power (dBm)": 21.76,
+        "Delta (Calc vs Meas) (dB)": -0.29,
+        "Upper Limit": 21.97,
+        "Lower Limit": 20.97
+      },
+      {
+        "LTE Band": "B3 High",
+        "Frequency (MHz)": 1783.42,
+        "Calculated Total Radiated Power (dBm)": 21.43,
+        "Measured Total Radiated Power (dBm)": 21.47,
+        "Delta (Calc vs Meas) (dB)": -0.04,
+        "Upper Limit": 21.93,
+        "Lower Limit": 20.93
+      },
+      {
+        "LTE Band": "B2 Low",
+        "Frequency (MHz)": 1851.58,
+        "Calculated Total Radiated Power (dBm)": 21.32,
+        "Measured Total Radiated Power (dBm)": 21.64,
+        "Delta (Calc vs Meas) (dB)": -0.32,
+        "Upper Limit": 21.82,
+        "Lower Limit": 20.82
+      },
+      {
+        "LTE Band": "B2 Mid",
+        "Frequency (MHz)": 1880.00,
+        "Calculated Total Radiated Power (dBm)": 21.07,
+        "Measured Total Radiated Power (dBm)": 21.53,
+        "Delta (Calc vs Meas) (dB)": -0.46,
+        "Upper Limit": 21.57,
+        "Lower Limit": 20.57
+      },
+      {
+        "LTE Band": "B2 High",
+        "Frequency (MHz)": 1908.42,
+        "Calculated Total Radiated Power (dBm)": 21.14,
+        "Measured Total Radiated Power (dBm)": 21.48,
+        "Delta (Calc vs Meas) (dB)": -0.34,
+        "Upper Limit": 21.64,
+        "Lower Limit": 20.64
+      },
+      {
+        "LTE Band": "B1 Low",
+        "Frequency (MHz)": 1921.58,
+        "Calculated Total Radiated Power (dBm)": 22.56,
+        "Measured Total Radiated Power (dBm)": 22.90,
+        "Delta (Calc vs Meas) (dB)": -0.34,
+        "Upper Limit": 23.06,
+        "Lower Limit": 22.06
+      },
+      {
+        "LTE Band": "B1 Mid",
+        "Frequency (MHz)": 1950.00,
+        "Calculated Total Radiated Power (dBm)": 22.31,
+        "Measured Total Radiated Power (dBm)": 22.84,
+        "Delta (Calc vs Meas) (dB)": -0.53,
+        "Upper Limit": 22.81,
+        "Lower Limit": 21.81
+      },
+      {
+        "LTE Band": "B1 High",
+        "Frequency (MHz)": 1978.42,
+        "Calculated Total Radiated Power (dBm)": 22.32,
+        "Measured Total Radiated Power (dBm)": 22.94,
+        "Delta (Calc vs Meas) (dB)": -0.62,
+        "Upper Limit": 22.82,
+        "Lower Limit": 21.82
+      },
+      {
+        "LTE Band": "B7 Low",
+        "Frequency (MHz)": 2502.62,
+        "Calculated Total Radiated Power (dBm)": 21.74,
+        "Measured Total Radiated Power (dBm)": 21.57,
+        "Delta (Calc vs Meas) (dB)": 0.17,
+        "Upper Limit": 22.24,
+        "Lower Limit": 21.24
+      },
+      {
+        "LTE Band": "B7 Mid",
+        "Frequency (MHz)": 2535.00,
+        "Calculated Total Radiated Power (dBm)": 21.37,
+        "Measured Total Radiated Power (dBm)": 21.80,
+        "Delta (Calc vs Meas) (dB)": -0.43,
+        "Upper Limit": 21.87,
+        "Lower Limit": 20.87
+      },
+      {
+        "LTE Band": "B7 High",
+        "Frequency (MHz)": 2567.38,
+        "Calculated Total Radiated Power (dBm)": 21.35,
+        "Measured Total Radiated Power (dBm)": 21.26,
+        "Delta (Calc vs Meas) (dB)": 0.09,
+        "Upper Limit": 21.85,
+        "Lower Limit": 20.85
+      }
+    ]
+  }
+}
